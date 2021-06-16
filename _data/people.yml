@@ -1,9 +1,7 @@
 instructors:
-  - name: Albus Dumbledore
-    profile_pic: /_images/pp/dumbledore.jpg
-    webpage: https://en.wikipedia.org/wiki/Albus_Dumbledore
-  - name: Minerva McGonagall
-    profile_pic: /_images/pp/mcgonagall.jpg
+  - name: Aravind Machiry
+    profile_pic: /_images/pp/machiry.png
+    webpage: https://machiry.github.io/
 
 teaching_assistants:
   - name: Harry Potter
