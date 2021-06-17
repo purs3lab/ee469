@@ -1,6 +1,11 @@
 # Site settings
 course_name: Holistic Software Security
-course_description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam ornare aliquam mattis. Donec hendrerit sollicitudin urna. Aliquam venenatis rutrum velit, at lobortis dui cursus a. Nam varius metus in turpis maximus, ut rhoncus tellus dictum. In aliquam tortor nec mi dapibus, sit amet vehicula dolor auctor."
+course_description: "The goal of the course is to bootstrap you into software security research. The
+course provides a complete overview of different aspects of software security and
+standard techniques used to solve various software security problems. We discuss
+generic techniques such as Data flow analysis/ type inference/ dynamic analysis
+that are also needed to perform research in other areas such as Software engineering
+and program analysis."
 course_semester: "Fall 2021"
 
 baseurl: "/hss" # the subpath of your site, e.g. /blog/
