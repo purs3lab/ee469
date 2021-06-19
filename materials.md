@@ -4,17 +4,19 @@ title: Materials
 permalink: /materials/
 ---
 
-{% include image.html url="/_images/cover2.jpg" width=175 align="right" %}
+## Software Security
+This free book by Matthias Payer provides a nice into to Software Security. You can find the book [here](https://nebelwelt.net/SS3P/softsec.pdf). 
 
-## Book
+## Program Analysis
+### Books
+* Dragon Book: [Amazon](https://www.amazon.com/Compilers-Principles-Techniques-Tools-2nd/)
+* (My Favorite Book) Surreptitious Software: [Amazon](https://www.amazon.com/Surreptitious-Software-Obfuscation-Watermarking-Tamperproofing) 
 
-Alan Turing and Noam Chomsky: Very Famous Book
+### Dynamic Program Analysis
+Fuzzing book provides a nice introduction to fuzzing. 
+You can find the site [here](https://www.fuzzingbook.org/)
+### Static Program Analysis
+SPA book by Anders Møller provides a precise and 
+slightly informal treatment of various static program analysis concepts.
+You can find the book [here](https://cs.au.dk/~amoeller/spa/spa.pdf).
 
-## Additional Course Materials
-
-* If you are not familiar with Python programming, use any online tutorial to get a handle of it.
-* [Material #1](http://www.example.com/): how a computer chess player thinks!
-* [Material #2](http://www.example.com/): how a computer chess player thinks!
-* [Material #3](http://www.example.com/): how a computer chess player thinks!
-* [Material #4](http://www.example.com/): how a computer chess player thinks!
-* [Material #5](http://www.example.com/): how a computer chess player thinks!
