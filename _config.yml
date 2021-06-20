@@ -5,7 +5,33 @@ course provides a complete overview of different aspects of software security an
 standard techniques used to solve various software security problems. We discuss
 generic techniques such as Data flow analysis/ type inference/ dynamic analysis
 that are also needed to perform research in other areas such as Software engineering
-and program analysis."
+and program analysis.
+The course is composed of four components: (i) Vulnerability Finding, (ii) Automated Patching, (iii) Patch Propagation, and (iv) Vulnerability Prevention.
+<ul>
+<li>Vulnerability Finding: We understand the basics of vulnerability finding techniques: Static analysis
+(Pattern-based/ Dataflow based/ Type-based/DSL based), Dynamic Analysis (Different Flavors of Fuzzing
+and dynamic symbolic execution), Machine Learning, and a combination of all the above.</li>
+
+<li>Automated Patching: Automated Program repair techniques: Pattern-based/ Dynamic analysis based/ Machine learning etc.</li>
+
+<li>Patch Propagation: Understanding the problem of propagating patches caused by software diversity
+and potential solutions.</li>
+
+<li>Vulnerability Prevention: Type-safe languages (Rust, Go, etc.), Retrofitting techniques (Sanitizers: ASAN, etc.),
+Type-safe dialects (Checked C/Cyclone/etc.).</li>
+</ul>
+
+For every component, we will start with basics and cover the state-of-the-art techniques.
+We will also be reading research papers and try to analyze the pros and cons critically."
+evaluation: "
+We will use the following distribution for grading:
+<ul>
+  <li>Four assignments (10% each).</li>
+  <li>Paper presentation (10%).</li>
+  <li>Paper Review (10%).</li>
+  <li>Course Project (40%).</li>
+</ul>
+"
 course_semester: "Fall 2021"
 
 baseurl: "/hss" # the subpath of your site, e.g. /blog/
