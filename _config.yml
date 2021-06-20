@@ -31,7 +31,24 @@ We will use the following distribution for grading:
   <li>Paper Review (10%).</li>
   <li>Course Project (40%).</li>
 </ul>
+This is a project-heavy course with more than one-third of the grade depends on the successful
+completion of the project.
 "
+course_project: "The goal of the course project is to enable students to experience various aspects of
+software security research.  The result of the project will be a conference-style presentation.
+This is a semester-long project and is recommended to be done in groups of up to three students.
+Each project group is expected to decide milestones and will receive grades based on the satisfactory
+completion of these milestones and the presentation. Potential project ideas will be presented in class.
+Although, students can pick a project of their choice after discussing it with the professor."
+
+course_prereqs: "This is a hands-on graduate-level course, with most of the assignments involves writing C/C++ code.
+I am expecting the students to have the following background:
+<ul>
+    <li>Should be very comfortable with writing C/C++ code: We will be working with clang/LLVM, which requires considerable experience with C/C++ codebases.</li>
+    <li>Should be comfortable with operating system concepts, especially: Process Isolation, Memory Management (Virtual memory/Demand paging), Processor privilege levels (e.g., x86 Rings: 0-3).</li>
+    <li>Knowledge about basic software security concepts such as buffer overflows, return-oriented programming, etc.</li>
+</ul>"
+
 course_semester: "Fall 2021"
 
 baseurl: "/hss" # the subpath of your site, e.g. /blog/

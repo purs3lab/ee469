@@ -13,7 +13,12 @@ layout: default
     <p>{{ site.course_description }}</p>
     <h3>Grading and Evaluation</h3>
     <p>{{ site.evaluation }}</p>
-    
+    <h3>Course Project</h3>
+    <p>{{ site.course_project }}</p>
+    <h3>Prerequisites and Expectations</h3>
+    <p>{{ site.course_prereqs }}</p>
+
+    <h3>Logistics</h3>
     {{ content }}
 
     {% if site.data.previous_offering and site.data.previous_offering.offerings and site.data.previous_offering.offerings.size > 0 %}
