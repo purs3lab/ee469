@@ -11,6 +11,7 @@ links:
 **Suggested Readings:**
 - [KLEE: Unassisted and Automatic Generation of High-Coverage Tests for Complex Systems Programs](https://llvm.org/pubs/2008-12-OSDI-KLEE.pdf)
 - [SAGE: Automated Whitebox Fuzzing](https://patricegodefroid.github.io/public_psfiles/ndss2008.pdf)
+- [Symbolic Execution for Software Testing: Three Decades Later](https://people.eecs.berkeley.edu/~ksen/papers/cacm13.pdf)  
 - [Under-constrained symbolic execution](https://cseweb.ucsd.edu/~dstefan/cse291-winter18/papers/ucklee.pdf)  
 - [Target-Driven Compositional Concolic Testing](http://swtv.kaist.ac.kr/publications/fse2019-focal.pdf)
 - [Chopped Symbolic Execution](https://srg.doc.ic.ac.uk/files/papers/chopper-icse-18.pdf)  
