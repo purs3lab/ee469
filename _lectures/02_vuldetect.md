@@ -9,5 +9,5 @@ links:
       name: slides
 ---
 **Suggested Readings:**
-- [Galios Connection](./static_files/notes/galiosconnection.pdf)
-- [Undecidability of Program Analysis](./static_files/notes/undecidability.pdf)
+- [Galios Connection](./../static_files/notes/galiosconnection.pdf)
+- [Undecidability of Program Analysis](./../static_files/notes/undecidability.pdf)
