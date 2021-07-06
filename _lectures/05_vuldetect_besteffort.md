@@ -15,7 +15,6 @@ links:
 - [Modeling and Discovering Vulnerabilities with Code Property Graphs](https://comsecuris.com/papers/06956589.pdf)
 - [Sys: a Static/Symbolic Tool for Finding Good Bugs in Good (Browser) Code](https://www.usenix.org/system/files/sec20-brown.pdf)
 - [μVulDeePecker: A Deep Learning-Based System for Multiclass Vulnerability Detection](https://ieeexplore.ieee.org/document/8846081)
-- [VCCFinder: Finding Potential Vulnerabilities in Open-Source Projects to Assist Code Audits](http://user.cs.uni-goettingen.de/~krieck/docs/2015-ccs.pdf)  
 - [Automatic Inference of Search Patterns for Taint-Style Vulnerabilities](http://173.236.186.201/TC/SP2015/papers-archived/6949a797.pdf)
 - [Bran: Reduce Vulnerability Search Space by Learning Bug Symptoms](https://machiry.github.io/files/bran.pdf)  
 - [ARBITRAR: User-Guided API Misuse Detection](https://machiry.github.io/files/arbitrar.pdf)
