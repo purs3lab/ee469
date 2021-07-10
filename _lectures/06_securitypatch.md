@@ -1,6 +1,6 @@
 ---
 type: lecture
-date: 2018-09-16T8:00:00+4:30
+date: 2018-09-17T8:00:00+4:30
 title: Patch Propagation
 tldr: "Challenges and Solution in patch propagation."
 thumbnail: /static_files/presentations/patch.png
