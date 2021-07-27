@@ -3,7 +3,7 @@ type: lecture
 date: 2018-09-17T8:00:00+4:30
 title: Vulnerability Prevention
 tldr: "Principles and techniques for vulnerability prevention."
-thumbnail: /static_files/presentations/bugprev.png
+thumbnail: /static_files/presentations/bugprev.jpg
 links:
     - url: https://google.com
       name: slides
