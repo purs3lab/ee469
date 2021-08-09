@@ -50,6 +50,19 @@ I am expecting the students to have the following background:
     <li>Knowledge about basic software security concepts such as buffer overflows, return-oriented programming, etc.</li>
 </ul>"
 
+course_policies: "This course will be run under the \"reasonable adults\" policy wherein it is assumed that all
+students are reasonable adults that want to benefit the most of the course by attending the course regularly,
+completing the homework assignments and projects on time, asking questions during the course and if they run
+into problems, and checking back with the instructor and the TA (if there exists one) regularly to ensure good progress.
+
+A more verbose version of the policy is available on <a href=\"https://spaf.cerias.purdue.edu/cpolicy.html\">Spaf's</a> page.
+This course follows the policies listed on that page. If you have any question about the course policy,
+don't hesitate to ask the instructor or the TA.
+
+As a short summary: (i) you are expected to attend all classes (modulo good reasons),
+(ii) you are supposed to hand in all work before the deadlines (there's a 10% point reduction per day for late hand-ins),
+(iii) if you need special treatment or have special circumstances, talk to the instructor or TA (if there exists one). - Copied from Prof.Payers course."
+
 course_semester: "Fall 2021"
 
 baseurl: "/hss" # the subpath of your site, e.g. /blog/
@@ -60,7 +73,7 @@ schoolurl: "https://engineering.purdue.edu/ECE"
 twitter_username: machiry_msidc
 
 address: |
-    Electrical and Computer Engineering
+    Elmore Family School of Electrical and Computer Engineering
     Purdue University
     West Lafayette, IN, USA
 
