@@ -50,6 +50,16 @@ I am expecting the students to have the following background:
     <li>Knowledge about basic software security concepts such as buffer overflows, return-oriented programming, etc.</li>
 </ul>"
 
+learning_objectives: "This course is aimed at introducing students to various aspects of software security research.
+After finishing the course, the students should:
+<ul>
+   <li>Have a good understanding of software security problems at various stages of software development and deployment.</li>
+   <li>Have a good understanding of principles behind solving various software security problems.</li>
+   <li>Have the ability to use state-of-the art tools to implement software security solutions.</li>
+   <li>Have the ability to systematically solve system security problems.</li>
+</ul>
+"
+
 course_policies: "This course will be run under the \"reasonable adults\" policy wherein it is assumed that all
 students are reasonable adults that want to benefit the most of the course by attending the course regularly,
 completing the homework assignments and projects on time, asking questions during the course and if they run
