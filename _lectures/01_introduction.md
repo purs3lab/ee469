@@ -8,3 +8,5 @@ links:
     - url: /static_files/presentations/introduction.pdf
       name: slides
 ---
+**Suggested Readings:**
+- [How to read a scientific paper](https://web.stanford.edu/class/ee384m/Handouts/HowtoReadPaper.pdf)
