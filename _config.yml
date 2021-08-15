@@ -110,6 +110,8 @@ collections:
         output: true
     lectures:
         output: true
+    lecschedule:
+        output: true
     assignments:
         output: true
     announcements:
