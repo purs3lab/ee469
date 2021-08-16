@@ -9,13 +9,13 @@
 {% endfor %}
 
 {% assign all_events = events_to_show | concat: site.announcements %}
-{% assign all_events_sorted = all_events | sort: 'date' | reverse %}
+{% assign all_events_sorted = all_events | sort: 'date' %}
 
 {% if all_events_sorted.size > 0 %}
 <div class="announcement-box" style="margin-top:30px">
 <h2>Updates</h2>
 <ul>
-    {% for n in all_events_sorted limit:7 %}
+    {% for n in all_events_sorted limit:4 %}
     <li class="no-p-margin">
         {% if n.type %}
             {% if n.type == 'lecture' %}
