@@ -5,6 +5,6 @@ title: LLVM - Crash course
 tldr: "Crash course on LLVM internals."
 thumbnail: /static_files/presentations/staticanalysis.jpeg
 links:
-    - url: https://google.com
+    - url: /static_files/presentations/llvmprimer.pdf
       name: slides
 ---

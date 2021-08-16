@@ -5,6 +5,6 @@ title: Vulnerability Detection - Best Effort (Part 3)
 tldr: "Best effort techniques for vulnerability detection."
 thumbnail: /static_files/presentations/best.png
 links:
-    - url: https://google.com
+    - url: /static_files/presentations/vulbesteffort.pdf
       name: slides
 ---

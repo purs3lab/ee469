@@ -5,7 +5,7 @@ title: Vulnerability Detection - Symbolic Execution (Part 1)
 tldr: "Symbolic Execution and its application for vulnerability detection."
 thumbnail: /static_files/presentations/symex.png
 links:
-    - url: https://google.com
+    - url: /static_files/presentations/vulsymex.pdf
       name: slides
 ---
 **Suggested Readings:**

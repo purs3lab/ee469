@@ -5,7 +5,7 @@ title: Vulnerability Detection - Sanitizers (Part 2)
 tldr: "Using sanitizers for improved vulnerability detection."
 thumbnail: /static_files/presentations/sanitization.jpg
 links:
-    - url: https://google.com
+    - url: /static_files/presentations/vulsanitizers.pdf
       name: slides
 ---
 **Suggested Readings:**

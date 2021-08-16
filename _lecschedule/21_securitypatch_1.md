@@ -5,6 +5,6 @@ title: Patch Propagation (Part 4)
 tldr: "Challenges and Solution in patch propagation."
 thumbnail: /static_files/presentations/patch.png
 links:
-    - url: https://google.com
+    - url: /static_files/presentations/vulpatchprop.pdf
       name: slides
 ---

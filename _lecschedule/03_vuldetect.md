@@ -5,6 +5,6 @@ title: Vulnerability Detection - Static analysis (Part 2)
 tldr: "Vulnerability detection through static analysis."
 thumbnail: /static_files/presentations/staticanalysis.jpeg
 links:
-    - url: https://google.com
+    - url: /static_files/presentations/vulstatic.pdf
       name: slides
 ---

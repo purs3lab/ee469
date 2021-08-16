@@ -5,6 +5,6 @@ title: Vulnerability Detection - Fuzzing (Part 3)
 tldr: "Fuzzing for vulnerability detection."
 thumbnail: /static_files/presentations/fuzzing.jpeg
 links:
-    - url: https://google.com
+    - url: /static_files/presentations/vuldynamic.pdf
       name: slides
 ---

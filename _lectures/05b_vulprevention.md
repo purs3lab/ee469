@@ -5,7 +5,7 @@ title: Vulnerability Prevention
 tldr: "Principles and techniques for vulnerability prevention."
 thumbnail: /static_files/presentations/bugprev.jpg
 links:
-    - url: https://google.com
+    - url: /static_files/presentations/vulprevent.pdf
       name: slides
 ---
 **Suggested Readings:**

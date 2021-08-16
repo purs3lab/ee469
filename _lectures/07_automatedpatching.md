@@ -5,7 +5,7 @@ title: Automated Patching
 tldr: "Solutions and challenges in automated patching."
 thumbnail: /static_files/presentations/autopatch.jpg
 links:
-    - url: https://google.com
+    - url: /static_files/presentations/autopatch.pdf
       name: slides
 ---
 **Suggested Readings:**
