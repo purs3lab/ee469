@@ -75,6 +75,44 @@ As a short summary: (i) you are expected to attend all classes (modulo good reas
 
 course_semester: "Fall 2021"
 
+nondiscrimination_statement: "Purdue University is committed to maintaining a community which recognizes and
+values the inherent worth and dignity of every person; fosters tolerance, sensitivity, understanding, and
+mutual respect among its members; and encourages each individual to strive to reach his or her own potential.
+In pursuit of its goal of academic excellence, the University seeks to develop and nurture diversity.
+The University believes that diversity among its many members strengthens the institution, stimulates creativity,
+promotes the exchange of ideas, and enriches campus life. <a href=\"https://www.purdue.edu/purdue/ea_eou_statement.php\">Link to Purdue’s nondiscrimination policy statement</a>."
+
+student_disability: "Purdue University strives to make learning experiences as accessible as possible.
+If you anticipate or experience physical or academic barriers based on disability, you are welcome to let me know so that we can discuss options.
+You are also encouraged to contact the Disability Resource Center at: drc@purdue.edu or by phone: 765-494-1247"
+
+emergency_preparation: "In the event of a major campus emergency, course requirements, deadlines and grading
+percentages are subject to changes that may be necessitated by a revised semester calendar or other circumstances
+beyond the instructor’s control. Relevant changes to this course will be posted onto the course website or can be
+obtained by contacting the instructors or TAs via email or phone. You are expected to read your @purdue.edu email on a frequent basis."
+
+mental_health: "
+It is important to make sure that you maintain your mental health.
+<ul>
+<li>If you find yourself beginning to feel some stress, anxiety and/or feeling slightly overwhelmed, try WellTrack.
+Sign in and find information and tools at your fingertips, available to you at any time. </li>
+<li> If you need support and information about options and resources, please see the Office of the Dean of Students for drop-in hours (M-F, 8 am- 5 pm). </li>
+<li> If you’re struggling and need mental health services: Purdue University is committed to advancing the mental health
+ and well-being of its students. If you or someone you know is feeling overwhelmed, depressed, and/or in need of mental health support,
+ services are available.
+ For help, such individuals should contact Counseling and Psychological Services (CAPS) at 765-494-6995 during and
+ after hours, on weekends and holidays, or by going to the CAPS office of the second floor of the Purdue University
+ Student Health Center (PUSH) during business hours.</li>
+ <li>TaskHuman offers private, real-time, on-demand, 1-on-1 video calls with wellness coaches covering over 800+ topics
+ such as anxiety, mindfulness, reducing stress, clean eating, time management, in-home workouts, relationship tensions,
+ financial issues, spiritual guidance and many more. You can access these wellness coaches from around the world 24/7.
+ The College of Engineering has an exclusive agreement with TaskHuman which gives you FREE and UNLIMITED access to
+ these resources. Over 3,200 calls have been made by College of Engineering students, staff, and faculty so far with an
+  average satisfaction rating of 4.89/5.
+  Learn more here: https://engineering.purdue.edu/ECE/TaskHuman.</li>
+ </ul>"
+
+
 baseurl: "/hss" # the subpath of your site, e.g. /blog/
 url: "http://purs3lab.github.io/" # the base hostname & protocol for your site
 
