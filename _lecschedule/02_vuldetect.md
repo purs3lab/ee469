@@ -7,6 +7,8 @@ thumbnail: /static_files/presentations/staticanalysis.jpeg
 links:
     - url: /static_files/presentations/vulstatic.pdf
       name: slides
+    - url: /static_files/presentations/memorycorruption.pdf
+      name: MemoryCorruption
     - url: /static_files/notes/references.pdf
       name: References
 ---
