@@ -5,7 +5,7 @@ title: Memory Corruption and Vulnerability Detection - Static analysis (Part 1)
 tldr: "Vulnerability detection through static analysis."
 thumbnail: /static_files/presentations/staticanalysis.jpeg
 links:
-    - url: /static_files/presentations/vulstatic.pdf
+    - url: /static_files/presentations/vulstatic1.pdf
       name: slides
     - url: /static_files/presentations/memorycorruption.pdf
       name: MemoryCorruption
