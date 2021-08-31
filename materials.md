@@ -9,8 +9,8 @@ This free book by Matthias Payer provides a nice into to Software Security. You 
 
 ## Program Analysis
 ### Books
-* Dragon Book: [Amazon](https://www.amazon.com/Compilers-Principles-Techniques-Tools-2nd/)
-* (My Favorite Book) Surreptitious Software: [Amazon](https://www.amazon.com/Surreptitious-Software-Obfuscation-Watermarking-Tamperproofing) 
+* Dragon Book: [Amazon](https://www.amazon.com/Compilers-Principles-Techniques-Tools-2nd/dp/0321486811/ref=sr_1_2?dchild=1&keywords=Dragon+book+compiler&qid=1630381344&sr=8-2)
+* (My Favorite Book) Surreptitious Software: [Amazon](https://www.amazon.com/Surreptitious-Software-Obfuscation-Watermarking-Tamperproofing/dp/0321549252) 
 
 ### Dynamic Program Analysis
 Fuzzing book provides a nice introduction to fuzzing. 
