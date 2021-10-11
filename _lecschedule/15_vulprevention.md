@@ -5,6 +5,6 @@ title: Vulnerability Prevention (Part 3)
 tldr: "Principles and techniques for vulnerability prevention."
 thumbnail: /static_files/presentations/bugprev.jpg
 links:
-    - url: /static_files/presentations/vulprevent.pdf
+    - url: /static_files/presentations/vulprevent1.pdf
       name: slides
 ---
