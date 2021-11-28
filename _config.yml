@@ -1,5 +1,5 @@
 # Site settings
-course_name: Holistic Software Security
+course_name: ECE469: Operating Systems Engineering
 course_description: "The goal of the course is to bootstrap you into software security research. The
 course provides a complete overview of different aspects of software security and
 standard techniques used to solve various software security problems. We discuss
@@ -73,7 +73,7 @@ As a short summary: (i) you are expected to attend all classes (modulo good reas
 (ii) you are supposed to hand in all work before the deadlines (there's a 10% point reduction per day for late hand-ins),
 (iii) if you need special treatment or have special circumstances, talk to the instructor or TA (if there exists one). - Copied from Prof.Payers course."
 
-course_semester: "Fall 2021"
+course_semester: "Spring 2022"
 
 nondiscrimination_statement: "Purdue University is committed to maintaining a community which recognizes and
 values the inherent worth and dignity of every person; fosters tolerance, sensitivity, understanding, and
@@ -113,7 +113,7 @@ Sign in and find information and tools at your fingertips, available to you at a
  </ul>"
 
 
-baseurl: "/hss" # the subpath of your site, e.g. /blog/
+baseurl: "/ee469" # the subpath of your site, e.g. /blog/
 url: "http://purs3lab.github.io/" # the base hostname & protocol for your site
 
 schoolname: "Purdue University"
