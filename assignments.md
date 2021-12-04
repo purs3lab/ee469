@@ -1,6 +1,13 @@
 ---
 layout: assignments
-title: Assignments
-permalink: /assignments/
+title: Labs
+permalink: /labs/
 ---
-You can download the assignments here. Also check out each assignment page for any additional info.
+The operating system you will build, called *JOS*, will have Unix-like
+functions, but is implemented in an [ExoKernel](static_files/read/exokernel:sosp95.pdf) style (i.e., the
+functions are implemented mostly as user-level library instead of
+built-in to the kernel).
+
+The labs used in this course are largely based on the materials originally
+developed for [MIT 6.828: Operating System Engineering](https://pdos.csail.mit.edu/6.828/2014/index.html)
+and edited by [OSU CS 444/544](https://os2.unexploitable.systems/index.html).
