@@ -130,7 +130,7 @@ understanding and be prepared to answer the questions posed below.
 
 If you are not already familiar with x86 assembly language, you will
 quickly become familiar with it during this course! 
-The [PC Assembly Language Book](/static_files/read/pcasm-book.pdf) is an excellent place
+The [PC Assembly Language Book](/ee469/static_files/read/pcasm-book.pdf) is an excellent place
 to start. Hopefully, the book contains mixture of new and old material
 for you.
 
@@ -142,13 +142,13 @@ least superficially, depending on which syntax is used. Luckily the
 conversion between the two is pretty simple, and is covered in
 [Brennan's Guide to Inline Assembly](http://www.delorie.com/djgpp/doc/brennan/brennan_att_inline_djgpp.html).
 
-:question: <span style="color:red">Exercise 1</span>
-Familiarize yourself with the assembly language materials
-available on `the cs444 reference page <../ref.html>`__. You
+## <span style="color:blue">Exercise 1</span>
+> Familiarize yourself with the assembly language materials
+available on [the EE469 reference page](/ee469/materials/). You
 don't have to read them now, but you'll almost certainly want to refer
 to some of this material when reading and writing x86 assembly.
 
-We do recommend reading the section "The Syntax" in
+> We do recommend reading the section "The Syntax" in
 [Brennan's Guide to Inline Assembly](http://www.delorie.com/djgpp/doc/brennan/brennan_att_inline_djgpp.html).
 It gives a good (and quite brief) description of the AT&T assembly
 syntax we'll be using with the GNU assembler in JOS.
