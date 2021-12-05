@@ -2,6 +2,7 @@
 type: assignment
 date: 2021-09-03T8:00:00+4:30
 title: 'Lab #1 - Booting a PC'
+enable: yes
 due_event: 
     type: due
     date: 2021-09-22T23:59:00+3:30
