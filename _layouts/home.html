@@ -60,6 +60,9 @@ layout: default
                     {% else %}
                     <p>{{ins.name}}</p>
                     {% endif %}
+                    {% if ins.office_hours %}
+                    <p>Office Hours: {{ins.office_hours}}</p>
+                    {% endif %}
                 </div>
                 {% endfor %}
             </div>
@@ -75,6 +78,9 @@ layout: default
                     <p><a href="{{ ta.webpage }}">{{ta.name}}</a></p>
                     {% else %}
                     <p>{{ta.name}}</p>
+                    {% endif %}
+                    {% if ta.office_hours %}
+                    <p>Office Hours: {{ta.office_hours}}</p>
                     {% endif %}
                 </div>
                 {% endfor %}

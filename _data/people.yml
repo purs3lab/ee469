@@ -2,16 +2,20 @@ instructors:
   - name: Aravind Machiry
     profile_pic: /_images/pp/machiry.png
     webpage: https://machiry.github.io/
+    office_hours: TBA
 
 teaching_assistants:
-  - name: Harry Potter
-    profile_pic: /_images/pp/potter.jpg
-    webpage: https://en.wikipedia.org/wiki/Harry_Potter_(character)
+  - name: Ravi Gokulan
+    profile_pic: /_images/pp/ravi.jpg
+    webpage: https://gokulan97.github.io/
+    office_hours: TBA
 
-  - name: Hermione Granger
-    profile_pic: /_images/pp/granger.jpg
-    webpage: https://en.wikipedia.org/wiki/Hermione_Granger
+  - name: Heejin Park
+    profile_pic: /_images/pp/hpark.jpg
+    webpage: https://bakhi.github.io/
+    office_hours: TBA
 
-  - name: Ron Weasley
-    profile_pic: /_images/pp/weasley.jpg
-    webpage: https://en.wikipedia.org/wiki/Ron_Weasley
+  - name: Sahil Jaganmohan
+    profile_pic: /_images/pp/sahil.jpg
+    webpage: https://www.sahiljaganmohan.com/
+    office_hours: TBA
