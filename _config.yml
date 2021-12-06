@@ -27,6 +27,8 @@ We will use the following distribution for grading:
 This is an implementation heavy and relatively tough course with more than one-third of the grade depends on the successful
 completion of the labs.
 
+<p/>
+
 <p><b>Grading Policy</b></p>
 Problems regarding grading of assignments and the midterm exam must be resolved within <b>one week</b> after the graded
 work has been returned to you. It is your responsibility to pick up the graded work on time.
@@ -35,6 +37,8 @@ The grades will not be modified after the one week period.
 Normally, the TAs make the final decisions on assigning the grade for each assignment and each exam question.
 Therefore, any issues with grading should normally be resolved with the TAs. However, if a student
 believes the TA's solution is wrong for a certain problem, he or she can ask the instructor for clarification.
+
+<p/>
 
 <p><b>Make-Up Exam Policy</b></p>
 A make-up exam is given only in the most extreme circumstances and requires certification for such
@@ -87,6 +91,8 @@ student that you are aware of. You must not allow any other student access to
 your solutions during an exam. If the seating situation makes this difficult,
 please inform the instructor or the TAs.
 
+<p/>
+
 <p><b>Programming Assignments</b></p>
 Students are encouraged to talk to the TAs or the instructor on programming assignments.
 
@@ -100,9 +106,9 @@ place your work on any publicly accessible site, and to exercise care in the dis
 
 Automatic tools will be used to compare your programming solutions to those of every other current or past student.
 
-<b>The first case of cheating on an assignment will result in a zero for the particular assignment and reporting the
+<p><b>The first case of cheating on an assignment will result in a zero for the particular assignment and reporting the
 student to the university administration for disciplinary action.
-The second case of cheating will result in an immediate F grade for the course.</b>
+The second case of cheating will result in an immediate F grade for the course.</b></p>
 "
 
 course_semester: "Spring 2022"
