@@ -56,11 +56,13 @@ completion of these milestones and the presentation. Potential project ideas are
 <a href=\"https://docs.google.com/spreadsheets/d/1Tmm2GvXN-9Uo8grPoXuJoPQM2JYPeSCf8a16RkJmFkA/\">here</a>.
 Although, students can pick a project of their choice after discussing it with the professor."
 
-course_prereqs: "The student will, upon completion of this course, understand basic operating system concepts.
-In particular, the student should become familiar with the techniques used within UNIX-derived operating systems.
-The associated laboratory experience augments this conceptual understanding of operating system design and
-construction by giving the student \"hands-on\" experience. Projects will be implemented using networked
-personal computers running Linux, a \"freeware\" version of POSIX-complaint UNIX.
+course_prereqs: "
+This is going to be an implementation heavy course with following pre-requisites.
+<ul>
+<li>ECE368 (Data Structures)</li>
+<li>[Optional but highly recommended] ECE437 (Introduction to Digital Computer Design and Prototyping)</li>
+</ul>
+**Programming proficiency in C is absolutely required.**
 "
 
 learning_objectives: "This course is aimed at introducing students to various aspects of software security research.
