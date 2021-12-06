@@ -1,8 +1,8 @@
 ---
 layout: home
 ---
-<b>When:</b> MWF 2:30 pm - 3:20 pm, <b>Where:</b> EE 222
+<b>When:</b> TTh 9:00 am - 10:15 am, <b>Where:</b> WTHR 172
 
 <b>Instructor Office Hours:</b>  Tuesday 4:00 pm - 5:30 pm @ EE 333
 
-Join our [Slack Channel](purs3-hss.slack.com) for course related collaborations!
+Join our [Piazza](https://piazza.com/purdue/spring2022/ece469) for course related collaborations!

@@ -1,39 +1,49 @@
 # Site settings
 course_name: ECE469 - Operating Systems Engineering
-course_description: "The goal of the course is to bootstrap you into software security research. The
-course provides a complete overview of different aspects of software security and
-standard techniques used to solve various software security problems. We discuss
-generic techniques such as Data flow analysis/ type inference/ dynamic analysis
-that are also needed to perform research in other areas such as Software engineering
-and program analysis.
-The course is composed of four components: (i) Vulnerability Finding, (ii) Automated Patching, (iii) Patch Propagation, and (iv) Vulnerability Prevention.
-<ul>
-<li>Vulnerability Finding: We understand the basics of vulnerability finding techniques: Static analysis
-(Pattern-based/ Dataflow based/ Type-based/DSL based), Dynamic Analysis (Different Flavors of Fuzzing
-and dynamic symbolic execution), Machine Learning, and a combination of all the above.</li>
+course_description: "This course teaches how internals of modern operating systems are working with
+hardware/software stack. In the course, we will learn fundamental concepts of operating systems by
+building an operating system by our own hand. In particular, Labs are based on JOS, an educational OS project,
+and will build it starting from booting (lab1), to virtual memory (lab2), to process (lab3),
+to multi-tasking (lab4), and, finally File system, Spawn and Shell (lab5).
+We will also covers concurrency issues in systems by learning on how to
+implement locks and other synchronization mechanisms and how to resolve deadlock issues."
 
-<li>Automated Patching: Automated Program repair techniques: Pattern-based/ Dynamic analysis based/ Machine learning etc.</li>
 
-<li>Patch Propagation: Understanding the problem of propagating patches caused by software diversity
-and potential solutions.</li>
-
-<li>Vulnerability Prevention: Type-safe languages (Rust, Go, etc.), Retrofitting techniques (Sanitizers: ASAN, etc.),
-Type-safe dialects (Checked C/Cyclone/etc.).</li>
-</ul>
-
-For every component, we will start with basics and cover the state-of-the-art techniques.
-We will also be reading research papers and try to analyze the pros and cons critically."
 evaluation: "
 We will use the following distribution for grading:
 <ul>
-  <li>Four assignments (10% each).</li>
-  <li>Paper presentation (10%).</li>
-  <li>Paper Review (10%).</li>
-  <li>Course Project (40%).</li>
+  <li>Labs (Total: 80%).</li>
+  <ul>
+  <li>Lab 1 (5%)</li>
+  <li>Lab 2 (10%)</li>
+  <li>Lab 3 (16%)</li>
+  <li>Lab 4 (21%)</li>
+  <li>Lab 5 (28%)</li>
+  </ul>
+  <li>Midterm (10%).</li>
+  <li>Final (10%).</li>
+  <li>Some extra credits in JOS Labs (1% or 2% each).</li>
 </ul>
-This is a project-heavy course with more than one-third of the grade depends on the successful
-completion of the project.
+This is an implementation heavy and relatively tough course with more than one-third of the grade depends on the successful
+completion of the labs.
+
+<p><b>Grading Policy</b></p>
+Problems regarding grading of assignments and the midterm exam must be resolved within <b>one week</b> after the graded
+work has been returned to you. It is your responsibility to pick up the graded work on time.
+The grades will not be modified after the one week period.
+
+Normally, the TAs make the final decisions on assigning the grade for each assignment and each exam question.
+Therefore, any issues with grading should normally be resolved with the TAs. However, if a student
+believes the TA's solution is wrong for a certain problem, he or she can ask the instructor for clarification.
+
+<p><b>Make-Up Exam Policy</b></p>
+A make-up exam is given only in the most extreme circumstances and requires certification for such
+circumstances: e.g. medical doctor's statement certifying that the student is unable to attend the scheduled exam.
+Any personal travels, load from work or from other classes, failed alarm clocks, or simply not being able to make it
+to the exam will not be grounds for a make-up. If you have any recurring medical problems that may unexpectedly
+prevent you from making it to class or exams, please obtain a doctor's statement certifying your circumstances.
 "
+
 course_project: "The goal of the course project is to enable students to experience various aspects of
 software security research.  The result of the project will be a conference-style presentation.
 This is a semester-long project and is recommended to be done in groups of up to three students.
@@ -42,13 +52,12 @@ completion of these milestones and the presentation. Potential project ideas are
 <a href=\"https://docs.google.com/spreadsheets/d/1Tmm2GvXN-9Uo8grPoXuJoPQM2JYPeSCf8a16RkJmFkA/\">here</a>.
 Although, students can pick a project of their choice after discussing it with the professor."
 
-course_prereqs: "This is a hands-on graduate-level course, with most of the assignments involves writing C/C++ code.
-I am expecting the students to have the following background:
-<ul>
-    <li>Should be very comfortable with writing C/C++ code: We will be working with clang/LLVM, which requires considerable experience with C/C++ codebases.</li>
-    <li>Should be comfortable with operating system concepts, especially: Process Isolation, Memory Management (Virtual memory/Demand paging), Processor privilege levels (e.g., x86 Rings: 0-3).</li>
-    <li>Knowledge about basic software security concepts such as buffer overflows, return-oriented programming, etc.</li>
-</ul>"
+course_prereqs: "The student will, upon completion of this course, understand basic operating system concepts.
+In particular, the student should become familiar with the techniques used within UNIX-derived operating systems.
+The associated laboratory experience augments this conceptual understanding of operating system design and
+construction by giving the student \"hands-on\" experience. Projects will be implemented using networked
+personal computers running Linux, a \"freeware\" version of POSIX-complaint UNIX.
+"
 
 learning_objectives: "This course is aimed at introducing students to various aspects of software security research.
 After finishing the course, the students should:
@@ -60,20 +69,50 @@ After finishing the course, the students should:
 </ul>
 "
 
-course_policies: "This course will be run under the \"reasonable adults\" policy wherein it is assumed that all
-students are reasonable adults that want to benefit the most of the course by attending the course regularly,
-completing the homework assignments and projects on time, asking questions during the course and if they run
-into problems, and checking back with the instructor and the TA (if there exists one) regularly to ensure good progress. <br/>
+course_policies: "As a student at Purdue you are subject to the
+<i><a href=\"http://www.purdue.edu/studentregulations/student_conduct/index.html\">Purdue University Student Code of Conduct</a></i>,
+which enjoins you to respect the highest standards of honesty and integrity. All work that you submit in this
+course must be your own; unauthorized group efforts are considered academic dishonesty.
+See the online brochure <i><a href=\"https://www.purdue.edu/odos/osrr/academic-integrity-brochure/\">Academic Integrity A Guide for Students</a></i> for definitions and sanctions.
+Academic dishonesty is a serious offense which may result in suspension or expulsion from the University.
+In addition to any other action taken, such as suspension or expulsion, a <b>grade of F</b> will normally be recorded on the transcripts
+of students found responsible for acts of academic dishonesty. Students are encouraged to report academic dishonesty
+to the instructor directly, or to the <a href=\"http://www.purdue.edu/odos/\">Office of the Dean of Students</a>.
 
-A more verbose version of the policy is available on <a href=\"https://spaf.cerias.purdue.edu/cpolicy.html\">Spaf's</a> page.
-This course follows the policies listed on that page. If you have any question about the course policy,
-don't hesitate to ask the instructor or the TA. <br/>
+<p><b>Exams</b></p>
+You must solve the exam problems yourself, without any help (knowing or unknowing) from any other student.
+You must not seek any knowledge in advance of the test questions (beyond that given
+in class), and must report any advance knowledge of the test questions by any
+student that you are aware of. You must not allow any other student access to
+your solutions during an exam. If the seating situation makes this difficult,
+please inform the instructor or the TAs.
 
-As a short summary: (i) you are expected to attend all classes (modulo good reasons),
-(ii) you are supposed to hand in all work before the deadlines (there's a 10% point reduction per day for late hand-ins),
-(iii) if you need special treatment or have special circumstances, talk to the instructor or TA (if there exists one). - Copied from Prof.Payers course."
+<p><b>Programming Assignments</b></p>
+Students are encouraged to talk to the TAs or the instructor on programming assignments.
+
+You may discuss assignments in a general way with other students, for example, via the class mailing list, but you must
+not consult any one else's written work. No discussion of or sharing of specific code or written answers is allowed,
+and each team of students must write their own solution to the problem. Any sources used outside of the class
+textbook/handouts/lectures must be explicitly acknowledged at the top of the assignment affected.
+
+Note this policy requires you to protect your files against electronic copying using UNIX file protection, to not
+place your work on any publicly accessible site, and to exercise care in the disposal of any printouts of your work.
+
+Automatic tools will be used to compare your programming solutions to those of every other current or past student.
+
+<b>The first case of cheating on an assignment will result in a zero for the particular assignment and reporting the
+student to the university administration for disciplinary action.
+The second case of cheating will result in an immediate F grade for the course.</b>
+"
 
 course_semester: "Spring 2022"
+
+text_book: "<b>Remzi and Andrea Arpaci-Dusseau, Operating Systems: Three Easy Pieces</b>
+<ul>
+   <li>Free at online: <a href=\"http://pages.cs.wisc.edu/~remzi/OSTEP/\">OSSTEP</a></li>
+   <li>From Amazon: <a href=\"https://www.amazon.com/Operating-Systems-Three-Easy-Pieces/dp/198508659X/ref=sr_1_1?crid=2LS0EPR0SUB7J&keywords=operating+systems+three+easy+pieces&qid=1584401893&sprefix=Operating+Systems%2Caps%2C213&sr=8-1&swrs=14595259A05D3392CF7B5C39A0E3B056\">Book Page.</a></li>
+</ul>
+"
 
 nondiscrimination_statement: "Purdue University is committed to maintaining a community which recognizes and
 values the inherent worth and dignity of every person; fosters tolerance, sensitivity, understanding, and
