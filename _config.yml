@@ -65,14 +65,11 @@ This is going to be an implementation heavy course with following pre-requisites
 **Programming proficiency in C is absolutely required.**
 "
 
-learning_objectives: "This course is aimed at introducing students to various aspects of software security research.
-After finishing the course, the students should:
-<ul>
-   <li>Have a good understanding of software security problems at various stages of software development and deployment.</li>
-   <li>Have a good understanding of principles behind solving various software security problems.</li>
-   <li>Have the ability to use state-of-the art tools to implement software security solutions.</li>
-   <li>Have the ability to systematically solve system security problems.</li>
-</ul>
+learning_objectives: "The student will, upon completion of this course, understand basic operating system concepts.
+In particular, the student should become familiar with the techniques used within UNIX-derived operating systems.
+The associated laboratory experience augments this conceptual understanding of operating system design and construction
+by giving the student \"hands-on\" experience. Projects will be implemented using networked personal
+computers running Linux, a \"freeware\" version of POSIX-complaint UNIX.
 "
 
 course_policies: "As a student at Purdue you are subject to the
