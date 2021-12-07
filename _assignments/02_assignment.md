@@ -1,7 +1,7 @@
 ---
 type: assignment
 date: 2021-09-24T8:00:00+4:30
-title: 'Lab 2: Memory Management'
+title: 'Lab #2 - Memory Management'
 enable: yes
 due_event:
     type: due
