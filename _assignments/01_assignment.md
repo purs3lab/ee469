@@ -6,7 +6,7 @@ enable: yes
 due_event: 
     type: due
     date: 2021-09-22T23:59:00+3:30
-    description: 'Assignment #1 due'
+    description: 'Lab #1 due'
 ---
 # Introduction
 
@@ -26,13 +26,13 @@ version control system. To learn more about Git, take a look at the [Git user's 
 or, if you are already familiar with other version control systems, you
 may find this [CS-oriented overview of Git](http://eagain.net/articles/git-for-computer-scientists/) useful.
 
-The URL for the lab Git repository is `https://github.com/EE469/lab1.git`
+The URL for the lab Git repository is `git@github.com:EE469/jos.git`
 
 Clone the repository on to the local machine:
 ```
-$ git clone git@github.com:EE469/lab1.git
-Cloning into lab1...
-$ cd lab1
+$ git clone git@github.com:EE469/jos.git
+Cloning into jos...
+$ cd jos
 ```
 
 Git allows you to keep track of the changes you make to the code. 
