@@ -160,7 +160,7 @@ although it is also possible to complete the lab without using it. At
 the very least, you will need to be able to understand the fragments of
 inline assembly language ("``asm``\ " statements) that already exist in
 the source code we gave you. You can find several sources of information
-on GCC inline assembly language on `the reference page <../ref.html>`__.
+on GCC inline assembly language on [the reference page](/ee469/materials/).
 
 # Part A: User Environments and Exception Handling
 
