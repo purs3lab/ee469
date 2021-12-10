@@ -842,8 +842,7 @@ for the user page fault handler:
 The user-level ``lib/fork.c`` code must consult the environment's page
 tables for several of the operations above (e.g., that the PTE for a
 page is marked ``PTE_COW``). The kernel maps the environment's page
-tables at ``UVPT`` exactly for this purpose. It uses a `clever mapping
-trick <https://pdos.csail.mit.edu/6.828/2014/labs/lab4/uvpt.html>`__
+tables at ``UVPT`` exactly for this purpose. It uses a [clever mapping trick](https://pdos.csail.mit.edu/6.828/2014/labs/lab4/uvpt.html)
 to make it to make it easy to lookup PTEs for user
 code. ``lib/entry.S`` sets up ``uvpt`` and ``uvpd`` so that you can
 easily lookup page-table information in ``lib/fork.c``.
