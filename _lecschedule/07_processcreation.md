@@ -2,7 +2,7 @@
 type: lecture
 date: 2022-02-01T8:00:00+4:30
 title: Process Abstraction
-tldr: "Process Abstraction: Process Creation."
+tldr: "Process Abstraction - Process Creation."
 thumbnail: /static_files/presentations/staticanalysis.jpeg
 links:
     - url: /static_files/presentations/7_process.pdf
