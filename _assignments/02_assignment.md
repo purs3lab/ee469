@@ -1,11 +1,11 @@
 ---
 type: assignment
-date: 2021-09-24T8:00:00+4:30
+date: 2022-01-25T8:00:00+4:30
 title: 'Lab #2 - Memory Management'
-enable: yes
+enable: no
 due_event:
     type: due
-    date: 2021-09-22T23:59:00+3:30
+    date: 2022-02-08T23:59:00+3:30
     description: 'Lab #2 due'
 ---
 # Introduction
