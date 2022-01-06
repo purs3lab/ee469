@@ -8,7 +8,7 @@ links:
     - url: /static_files/presentations/5_memory3.pdf
       name: slides
 ---
-**Suggested Readings:**
+**Readings:**
 - [Text Book: Paging](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-paging.pdf)
 - [Text Book: TLBs](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-tlbs.pdf)
 - [Text Book: Smaller Tables](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-smalltables.pdf)

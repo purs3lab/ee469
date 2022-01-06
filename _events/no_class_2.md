@@ -1,6 +1,6 @@
 ---
 type: noclass
-date: 2021-11-24T08:00:00+3:30
-description: 'Thanksgiving Vacation'
+date: 2022-03-17T08:00:00+3:30
+description: 'Spring Vacation'
 hide_from_announcments: true
 ---

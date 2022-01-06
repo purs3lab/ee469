@@ -8,5 +8,5 @@ links:
     - url: /static_files/presentations/13_deadlocks.pdf
       name: slides
 ---
-**Suggested Readings:**
+**Readings:**
 - [Text Book: Concurrency Bugs](http://pages.cs.wisc.edu/~remzi/OSTEP/threads-bugs.pdf)

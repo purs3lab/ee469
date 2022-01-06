@@ -8,7 +8,7 @@ links:
     - url: /static_files/presentations/7_process.pdf
       name: slides
 ---
-**Suggested Readings:**
+**Readings:**
 - [Text Book: Process](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-intro.pdf)
 - [Text Book: Process API](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-api.pdf)
 - [Text Book: Process Handling](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-mechanisms.pdf)

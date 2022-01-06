@@ -8,7 +8,7 @@ links:
     - url: /static_files/presentations/3_memory1.pdf
       name: slides
 ---
-**Suggested Readings:**
+**Readings:**
 - [Text Book: Address Spaces](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-intro.pdf)
 - [Text Book: Address Translation](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-mechanism.pdf)
 - [Text Book: Segmentation](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-segmentation.pdf)

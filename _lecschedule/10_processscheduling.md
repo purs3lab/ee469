@@ -8,6 +8,6 @@ links:
     - url: /static_files/presentations/10_multiprocessing.pdf
       name: slides
 ---
-**Suggested Readings:**
+**Readings:**
 - [Text Book: Concurrency](http://pages.cs.wisc.edu/~remzi/OSTEP/threads-intro.pdf)
 - [Text Book: Multi-threading](http://pages.cs.wisc.edu/~remzi/OSTEP/threads-api.pdf)

@@ -8,5 +8,5 @@ links:
     - url: /static_files/presentations/1_introduction.pdf
       name: slides
 ---
-**Suggested Readings:**
+**Readings:**
 - [Text Book: OS Introduction](http://pages.cs.wisc.edu/~remzi/OSTEP/intro.pdf)

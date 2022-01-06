@@ -8,5 +8,5 @@ links:
     - url: /static_files/presentations/4_memory2.pdf
       name: slides
 ---
-**Suggested Readings:**
+**Readings:**
 - [x86_Address_Translation](/static_files/read/x86_mem.pdf)
