@@ -60,19 +60,16 @@ layout: default
                 {% for ins in site.data.people.instructors %}
                 <div class="image--cover-container">
                     <img src="{{ins.profile_pic | prepend: site.baseurl }}" class="image--cover">
-                    {% if ins.webpage %}
-                    <p><a href="{{ ins.webpage }}">{{ins.name}}</a></p>
+                    {% if ins.email %}
+                    <p><a href="mailto:{{ins.email}}">{{ins.name}}</a></p>
                     {% else %}
                     <p>{{ins.name}}</p>
-                    {% endif %}
-                    {% if ins.email %}
-                    <p>Email: {{ins.email}}</p>
                     {% endif %}
                     {% if ins.office_hours %}
                     <p>Office Hours: {{ins.office_hours}}</p>
                     {% endif %}
                     {% if ins.location %}
-                    <p>Location: {{ta.lab_hours}}</p>
+                    <p>Location: {{ta.location}}</p>
                     {% endif %}
                 </div>
                 {% endfor %}
@@ -85,13 +82,10 @@ layout: default
                 {% for ta in site.data.people.teaching_assistants %}
                 <div class="image--cover-container">
                     <img src="{{ta.profile_pic | prepend: site.baseurl }}" class="image--cover">
-                    {% if ta.webpage %}
-                    <p><a href="{{ ta.webpage }}">{{ta.name}}</a></p>
+                    {% if ta.email %}
+                    <p><a href="mailto:{{ta.email}}">{{ta.name}}</a></p>
                     {% else %}
                     <p>{{ta.name}}</p>
-                    {% endif %}
-                    {% if ta.email %}
-                    <p>Email: {{ta.email}}</p>
                     {% endif %}
                     {% if ta.office_hours %}
                     <p>Office Hours: {{ta.office_hours}}</p>
