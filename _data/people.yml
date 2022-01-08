@@ -2,25 +2,39 @@ instructors:
   - name: Aravind Machiry
     profile_pic: /_images/pp/machiry.png
     webpage: https://machiry.github.io/
-    office_hours: TBA
+    email: amachiry@purdue.edu
+    office_hours: "Friday (9:00 am - 12:00 pm)"
+    location: "EE 333"
 
 teaching_assistants:
   - name: Gokulan Ravi
     profile_pic: /_images/pp/ravi.jpg
     webpage: https://gokulan97.github.io/
-    office_hours: TBA
+    email: ravig@purdue.edu
+    office_hours: "Wednesday (9:30 am - 12:30 pm)"
+    lab_hours: "Thursday (9:30 am - 12:30 pm)"
+    location: TBA
 
   - name: Heejin Park
     profile_pic: /_images/pp/hpark.jpg
     webpage: https://bakhi.github.io/
-    office_hours: TBA
+    email: bakhi@purdue.edu
+    office_hours: "Monday (9:30 am - 12:30 pm)"
+    lab_hours: "Tuesday (9:30 am - 12:30 pm)"
+    location: TBA
 
   - name: Sahil Jaganmohan
     profile_pic: /_images/pp/sahil.jpg
     webpage: https://www.sahiljaganmohan.com/
-    office_hours: TBA
+    email: sjaganm@purdue.edu
+    office_hours: "Wednesday (1:30 pm - 4:30 pm)"
+    lab_hours: "Monday (1:30 pm - 4:30 pm)"
+    location: TBA
 
   - name: Pranab Dash
     profile_pic: /_images/pp/ta02.jpg
     webpage: dashp@purdue.edu
-    office_hours: TBA
+    email: dashp@purdue.edu
+    office_hours: "Thursday (1:00 pm - 4:00 pm)"
+    lab_hours: "Friday (2:00 pm - 5:00 pm)"
+    location: TBA

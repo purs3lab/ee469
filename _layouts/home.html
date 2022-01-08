@@ -65,8 +65,14 @@ layout: default
                     {% else %}
                     <p>{{ins.name}}</p>
                     {% endif %}
+                    {% if ins.email %}
+                    <p>Email: {{ins.email}}</p>
+                    {% endif %}
                     {% if ins.office_hours %}
                     <p>Office Hours: {{ins.office_hours}}</p>
+                    {% endif %}
+                    {% if ins.location %}
+                    <p>Location: {{ta.lab_hours}}</p>
                     {% endif %}
                 </div>
                 {% endfor %}
@@ -84,8 +90,17 @@ layout: default
                     {% else %}
                     <p>{{ta.name}}</p>
                     {% endif %}
+                    {% if ta.email %}
+                    <p>Email: {{ta.email}}</p>
+                    {% endif %}
                     {% if ta.office_hours %}
                     <p>Office Hours: {{ta.office_hours}}</p>
+                    {% endif %}
+                    {% if ta.lab_hours %}
+                    <p>Lab Hours: {{ta.lab_hours}}</p>
+                    {% endif %}
+                    {% if ta.location %}
+                    <p>Location: {{ta.location}}</p>
                     {% endif %}
                 </div>
                 {% endfor %}
