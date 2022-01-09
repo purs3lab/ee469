@@ -13,11 +13,6 @@ title: page.title
     {% if page.due_event %}
     <span style="font-weight: bold">Due Date: {{ page.due | date: site.dateformat }} {{ page.due_event.date | date: "%H:%M" }}</span>
     {% endif %}
-
-    <div style="color: gray;">
-      <h3>Late Policy</h3>
-      {% include late_policy.html %}
-    </div>
   </div>
 
   <br />

@@ -3,6 +3,12 @@ layout: page
 ---
 
 {{ content }}
+
+<div style="color: gray;">
+    <h3>Late Policy</h3>
+    {% include late_policy.html %}
+</div>
+
 <ul id="archive">
 {% for asg in site.assignments %}
 {% if asg.enable %}
