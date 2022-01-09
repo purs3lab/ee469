@@ -12,6 +12,44 @@ You'll use two sets of tools in this class: an x86 emulator: [Qemu](#configuring
 a [Compiler toolchain](#compiler-tool-chain), including assembler, linker, C compiler, and
 debugger, for compiling and testing your kernel.
 
+## Using `ecegrid`
+All the required tools are already present on `ecegrid`. You need to configure your `PATH` variable as follows:
+```
+PATH=~ee469/labs_2022/qemu/build/bin:$PATH
+```
+Specifically, append the above line at the end of your `~/.bashrc`.
+
+You should be good to go from here.
+
+You will be using `tmux` for debugging and it is better to brush up your `tmux` basics
+
+### Using tmux
+`tmux` allows multiple terminals to be opened on the single window.
+The benefit of using tmux is that it creates a persistent terminal, which means even if the connection 
+is lost or the terminal closed, the session can be recovered.
+
+Here are some helpful tmux commands:
+
+Launching tmux
+```
+$ tmux new -s <session name>
+```
+Detaching from a session
+Ctrl+b d
+Checking for the existing tmux sessions
+```
+$ tmux ls
+```
+Attaching to a tmux session
+```
+$ tmux a -t <session name>
+```
+
+You may use this tmux [cheatsheet](https://tmuxcheatsheet.com/) and [man page](https://man7.org/linux/man-pages/man1/tmux.1.html) 
+to get a better understanding.
+
+> Follow the below instructions if you want to setup compiler toolchain on your own machine.
+
 ## Compiler Tool chain
 A "compiler toolchain" is the set of programs, including a C compiler, assemblers, and linkers, that turn code into 
 executable binaries. You'll need a compiler toolchain that generates code for 32-bit Intel architectures ("x86" architectures) in the ELF binary format.
