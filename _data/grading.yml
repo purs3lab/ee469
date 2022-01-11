@@ -1,0 +1,8 @@
+rules:
+  1. Compilation error/empty or incorrectly formed tar.gz file results in immediate zero points. This is not a intro to programming class. You should have already overcome this hurdle long before.
+
+  2. Code faking/cheating of any form, for example Copying other team's solutions, faking your program to simply print out the expected output, or changing the Makefile to use the TA provided kernel as opposed to your own but claiming it is using your own modified kernel, will result in immediate zero points for that entire lab, plus a report to the Dept and the Dean's office of academic dishonesty.
+
+  3. Any coredump/hanging will result in a deduction of 60% of the total points for that problem right away
+
+  4. For all the other cases, the grade script should give you a good estimate of the expected grade. We also maintain other tests, so final grade will depend on you passing the provided grading script and our internal tests.
