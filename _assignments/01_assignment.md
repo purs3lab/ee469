@@ -398,7 +398,8 @@ $ cd $JOS_PATH # set JOS_PATH to JOS source code path
 $ tmux new -s debug-qemu
 $ make qemu-nox-gdb
 ```
-2. debug-gdb session on terminal #2
+ 2. debug-gdb session on terminal #2
+ 
 ```
 $ cd $JOS_PATH # set JOS_PATH to JOS source code path
 $ tmux new -s debug-gdb
