@@ -1111,7 +1111,7 @@ many arguments there actually are? How could this limitation be fixed?)
 
 You should use ``ebp`` to trace back. Look at the below figure:
 
-![stacktrace](/static_files/fig/stack_on_call.png)
+![stacktrace](/ee469/static_files/fig/stack_on_call.png)
 
 Here are a few specific points you read about in K&R Chapter 5 that are
 worth remembering for the following exercise and for future labs.
