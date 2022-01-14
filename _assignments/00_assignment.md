@@ -15,9 +15,10 @@ debugger, for compiling and testing your kernel.
 ## Using `ecegrid`
 All the required tools are already present on `ecegrid`. You need to configure your `PATH` variable as follows:
 ```
-PATH=~ee469/labs_2022/qemu/build/bin:$PATH
+setenv PATH=~ee469/labs_2022/qemu/build/bin:$PATH
 ```
-Specifically, append the above line at the end of your `~/.bashrc`.
+
+**If you are using bash shell**: append the line `export PATH=~ee469/labs_2022/qemu/build/bin:$PATH` at the end of your `~/.bashrc`.
 
 You should be good to go from here.
 
