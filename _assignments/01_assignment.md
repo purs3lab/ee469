@@ -1109,6 +1109,10 @@ called with fewer than five arguments, of course, then not all five of
 these values will be useful. (Why can't the backtrace code detect how
 many arguments there actually are? How could this limitation be fixed?)
 
+You should use ``ebp`` to trace back. Look at the below figure:
+
+![stacktrace](/ee469/static_files/fig/stack_on_call.png)
+
 Here are a few specific points you read about in K&R Chapter 5 that are
 worth remembering for the following exercise and for future labs.
 
