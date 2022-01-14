@@ -26,11 +26,11 @@ version control system. To learn more about Git, take a look at the [Git user's 
 or, if you are already familiar with other version control systems, you
 may find this [CS-oriented overview of Git](http://eagain.net/articles/git-for-computer-scientists/) useful.
 
-The URL for the lab Git repository is `git@github.com:EE469/jos.git`
+The URL for the lab Git repository is `https://github.com/EE469/jos.git`
 
 Clone the repository on to the local machine:
 ```
-$ git clone git@github.com:EE469/jos.git
+$ git clone https://github.com/EE469/jos.git
 Cloning into jos...
 $ cd jos
 ```
