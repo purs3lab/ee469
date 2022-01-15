@@ -149,3 +149,168 @@ Open your `~/.bashrc` file and add the following line at the end of it.
 ```
 PATH=~/qemu/build/bin:$PATH
 ```
+
+## GDB
+
+See the [GDB manual](http://sourceware.org/gdb/current/onlinedocs/gdb/) for a full
+guide to GDB commands. Here are some particularly useful commands for
+CS 444/544, some of which don't typically come up outside of OS development.
+
+**Ctrl-c**
+
+Halt the machine and break in to GDB at the current instruction. If QEMU has multiple virtual CPUs, this halts all of them.
+
+**`c (or continue)`**
+
+Continue execution until the next breakpoint or ``Ctrl-c``.
+
+**`si (or stepi)`**
+
+Execute one machine instruction.
+
+**`b function or b file:line (or breakpoint)`**
+
+Set a breakpoint at the given function or line.
+
+**`b addr (or breakpoint)`**
+
+Set a breakpoint at the EIP *addr*.
+
+**`set print pretty`**
+
+Enable pretty-printing of arrays and structs.
+
+**`info registers`**
+
+Print the general purpose registers, ``eip``, ``eflags``, and the segment selectors.
+For a much more thorough dump of the machine register state, see QEMU's own ``info   registers`` command.
+
+**`x N addr`**
+
+Display a hex dump of *N* words starting at virtual address *addr*. 
+If *N* is omitted, it defaults to 1. *addr* can be any expression.
+
+**`x N i addr`**
+
+Display the *N* assembly instructions starting at *addr*. Using``$eip`` as *addr* will display the instructions at the current instruction pointer.
+
+**`symbol-file file`**
+
+**(Lab 3+)** Switch to symbol file *file*. When GDB attaches to QEMU, it
+has no notion of the process boundaries within the virtual machine,
+so we have to tell it which symbols to use. By default, we configure
+GDB to use the kernel symbol file, ``obj/kern/kernel``. If the
+machine is running user code, say ``hello.c``, you can switch to the
+hello symbol file using ``symbol-file obj/user/hello``.
+
+
+> QEMU represents each virtual CPU as a thread in GDB, so you can use all 
+> of GDB's thread-related commands to view or manipulate QEMU's virtual
+  CPUs.
+
+**`thread n`**
+
+GDB focuses on one thread (i.e., CPU) at a time. This command switches that focus to thread *n*, numbered from zero.
+
+**`info threads`**
+
+List all threads (i.e., CPUs), including their state (active or halted) and what function they're in.
+
+
+## QEMU
+
+QEMU includes a built-in monitor that can inspect and modify the machine
+state in useful ways. To enter the monitor, press Ctrl-a c in the
+terminal running QEMU. Press Ctrl-a c again to switch back to the serial
+console.
+
+For a complete reference to the monitor commands, see the [QEMU manual](http://wiki.qemu.org/download/qemu-doc.html#pcsys_005fmonitor).
+Here are some particularly useful commands:
+
+**`xp N x paddr`**
+
+Display a hex dump of *N* words starting at *physical* address
+*paddr*. If *N* is omitted, it defaults to 1. This is the physical
+memory analogue of GDB's ``x`` command.
+
+**`info registers`**
+
+Display a full dump of the machine's internal register state. In
+particular, this includes the machine's *hidden* segment state for
+the segment selectors and the local, global, and interrupt
+descriptor tables, plus the task register. This hidden state is the
+information the virtual CPU read from the GDT/LDT when the segment
+selector was loaded. Here's the CS when running in the JOS kernel in
+lab 1 and the meaning of each field:
+
+```
+
+        CS =0008 10000000 ffffffff 10cf9a00 DPL=0 CS32 [-R-]
+
+    ``CS =0008``
+        The visible part of the code selector. We're using segment 0x8.
+        This also tells us we're referring to the global descriptor
+        table (0x8&4=0), and our CPL (current privilege level) is
+        0x8&3=0.
+    ``10000000``
+        The base of this segment. Linear address = logical address +
+        0x10000000.
+    ``ffffffff``
+        The limit of this segment. Linear addresses above 0xffffffff
+        will result in segment violation exceptions.
+    ``10cf9a00``
+        The raw flags of this segment, which QEMU helpfully decodes for
+        us in the next few fields.
+    ``DPL=0``
+        The privilege level of this segment. Only code running with
+        privilege level 0 can load this segment.
+    ``CS32``
+        This is a 32-bit code segment. Other values include ``DS`` for
+        data segments (not to be confused with the DS register), and
+        ``LDT`` for local descriptor tables.
+    ``[-R-]``
+        This segment is read-only.
+```
+
+**`info mem`**
+
+**(Lab 2+)** Display mapped virtual memory and permissions. For example,
+
+```
+  ef7c0000-ef800000 00040000 urw
+  efbf8000-efc00000 00008000 -rw
+```
+
+tells us that the 0x00040000 bytes of memory from 0xef7c0000 to
+0xef800000 are mapped read/write and user-accessible, while the
+memory from 0xefbf8000 to 0xefc00000 is mapped read/write, but only
+kernel-accessible.
+
+QEMU also takes some useful command line arguments, which can be passed
+into the JOS makefile using the `QEMUEXTRA <#make-qemuextra>`__
+variable.
+
+**`make QEMUEXTRA='-d int' ...`**
+
+Log all interrupts, along with a full register dump, to
+``qemu.log``. You can ignore the first two log entries, "SMM: enter"
+and "SMM: after RMS", as these are generated before entering the
+boot loader. After this, log entries look like
+
+```
+
+ 4: v=30 e=0000 i=1 cpl=3 IP=001b:00800e2e pc=00800e2e SP=0023:eebfdf28 EAX=00000005
+ EAX=00000005 EBX=00001002 ECX=00200000 EDX=00000000
+ ESI=00000805 EDI=00200000 EBP=eebfdf60 ESP=eebfdf28
+        ...
+```
+
+The first line describes the interrupt. The ``4:`` is just a log
+record counter. ``v`` gives the vector number in hex. ``e`` gives
+the error code. ``i=1`` indicates that this was produced by an
+``int`` instruction (versus a hardware interrupt). The rest of the
+line should be self-explanatory. See `info registers` for a description of the
+register dump that follows.
+
+**Note**: If you're running a pre-0.15 version of QEMU, the log will be
+written to ``/tmp`` instead of the current directory.
