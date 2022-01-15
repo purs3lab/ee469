@@ -56,7 +56,7 @@ We have set up the appropriate compilers and simulators for you on `ecegrid.ecn.
 
 
 If you are working on a non-ecngrid machine, you'll need to install qemu and possibly gcc following the directions 
-on the [tools](../00_assignment) page. We've made several useful debugging changes to qemu and some of the 
+on the [tools](../assignments/00_assignment) page. We've made several useful debugging changes to qemu and some of the 
 later labs depend on these patches, so you must build your own. 
 
 # Hand-In Procedure
