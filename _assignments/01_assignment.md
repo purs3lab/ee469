@@ -571,7 +571,7 @@ consecutive instructions to disassemble and *ADDR* is the memory address
 at which to start disassembling.
 
 ## <span style="color:blue">Exercise 3</span>
-> Take a look at the `[tools](../00_assignment)`__,
+> Take a look at the [tools](../assignments/00_assignment),
     especially the section on GDB commands.
     Even if you're familiar with GDB, this includes some esoteric GDB
     commands that are useful for OS work.
