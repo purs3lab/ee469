@@ -13,5 +13,8 @@
     {% if include.event.solutions %}
     [<a href="{{ include.event.solutions | prepend: site.baseurl}}">Solutions</a>]
     {% endif %}
+    {% if include.event.reference %}
+    {{ include.event.reference }}
+    {% endif %}
     {% endif %}
 </div>
