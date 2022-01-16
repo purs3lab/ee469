@@ -8,7 +8,14 @@ due_event:
     date: 2022-01-25T23:59:00+3:30
     description: 'Lab #1 due'
 ---
+
 # Introduction
+
+> #### Useful References:
+> - [at&t_asm](https://www.cs.yale.edu/flint/cs421/papers/x86-asm/asm.html)
+> - [GDB tutorial1](http://www.cs.toronto.edu/~krueger/csc209h/tut/gdb_tutorial.html)
+> - [GDB tutorial2](http://beej.us/guide/bggdb/)
+> - [GDB chect-sheet](https://darkdust.net/files/GDB%20Cheat%20Sheet.pdf)
 
 This lab is split into three parts. The first part concentrates on
 getting familiarized with x86 assembly language, the QEMU x86 emulator,
