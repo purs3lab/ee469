@@ -9,4 +9,4 @@ links:
       name: slides
 ---
 **Readings:**
-- [x86_Address_Translation](/static_files/read/x86_mem.pdf)
+- [x86_Address_Translation](/ee469/static_files/read/x86_mem.pdf)

@@ -12,4 +12,4 @@ links:
 - [Text Book: Address Spaces](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-intro.pdf)
 - [Text Book: Address Translation](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-mechanism.pdf)
 - [Text Book: Segmentation](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-segmentation.pdf)
-- [x86_Address_Translation](/static_files/read/x86_mem.pdf)
+- [x86_Address_Translation](/ee469/static_files/read/x86_mem.pdf)
