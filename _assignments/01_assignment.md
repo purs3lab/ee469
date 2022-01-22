@@ -166,7 +166,7 @@ is Intel's instruction set architecture reference, which you can find on
 [the EE469 reference page](/ee469/materials/) in two flavors: an
 HTML edition of the old [80386 Programmer's Reference Manual](http://www.logix.cz/michal/doc/i386/), which is much shorter and
 easier to navigate than more recent manuals but describes all of the x86
-processor features that we will make use of in cs444/544; and the full,
+processor features that we will make use of in ee469; and the full,
 latest and greatest [IA-32 Intel Architecture Software Developer's Manuals](http://www.intel.com/content/www/us/en/processors/architectures-software-developer-manuals.html)
 from Intel, covering all the features of the most recent processors that we won't need in class but you may be interested in learning about. An
 equivalent (and often friendlier) set of manuals is [available from AMD](https://www.amd.com/system/files/TechDocs/24592.pdf).
@@ -652,7 +652,7 @@ parts are for supporting dynamic loading of shared libraries, which we
 will not do in this class. The
 [Wikipedia page](http://en.wikipedia.org/wiki/Executable_and_Linkable_Format) has a short description.
 
-For purposes of cs444/544, you can consider an ELF executable to be a header
+For purposes of ee469, you can consider an ELF executable to be a header
 with loading information, followed by several *program sections*, each
 of which is a contiguous chunk of code or data intended to be loaded
 into memory at a specified address. The boot loader does not modify the
@@ -719,8 +719,7 @@ global variable, with the result that a binary usually won't work if it
 is executing from an address that it is not linked for. (It is possible
 to generate *position-independent* code that does not contain any such
 absolute addresses. This is used extensively by modern shared libraries,
-but it has performance and complexity costs, so we won't be using it in
-cs444/544.)
+but it has performance and complexity costs, so we won't be using it in ee469.)
 
 Typically, the link and load addresses are the same. For example, look
 at the ``.text`` section of the boot loader:
