@@ -1121,11 +1121,11 @@ You should use ``ebp`` to trace back. Look at the below figure:
 
 The behavior of stack when foo calls bar **without any arguments**:
 
-![framewithoutparams][/ee469/static_files/fig/frame_without_param.gif]
+![framewithoutparams](/ee469/static_files/fig/frame_without_param.gif)
 
 The behavior of stack when foo calls bar **with arguments**:
 
-![framewithparams][/ee469/static_files/fig/frame_with_param.gif]
+![framewithparams](/ee469/static_files/fig/frame_with_param.gif)
 
 Here are a few specific points you read about in K&R Chapter 5 that are
 worth remembering for the following exercise and for future labs.
