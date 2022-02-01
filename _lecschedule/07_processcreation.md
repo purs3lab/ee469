@@ -12,3 +12,6 @@ links:
 - [Text Book: Process](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-intro.pdf)
 - [Text Book: Process API](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-api.pdf)
 - [Text Book: Process Handling](https://pages.cs.wisc.edu/~remzi/OSTEP/cpu-mechanisms.pdf)
+
+**Examples:**
+- [fork/exec/wait examples](https://github.com/purs3lab/ee469_examples/tree/master/process_api)
