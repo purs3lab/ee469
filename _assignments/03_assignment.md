@@ -1,11 +1,11 @@
 ---
 type: assignment
-date: 2022-02-08T8:00:00+4:30
+date: 2022-02-10T8:00:00+4:30
 title: 'Lab #3 - User Environments'
 enable: no
 due_event:
     type: due
-    date: 2022-02-24T23:59:00+3:30
+    date: 2022-02-26T23:59:00+3:30
     description: 'Lab #3 due'
 ---
 # Introduction

@@ -5,7 +5,7 @@ title: 'Lab #2 - Memory Management'
 enable: yes
 due_event:
     type: due
-    date: 2022-02-08T23:59:00+3:30
+    date: 2022-02-10T23:59:00+3:30
     description: 'Lab #2 due'
 ---
 # Introduction
