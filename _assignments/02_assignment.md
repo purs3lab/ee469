@@ -432,7 +432,8 @@ to physical mappings.
 ``check_page_installed_pgdir()`` checks.
 
 > **Questions**
-> 2. What entries (rows) in the page directory have been filled in at this
+
+> 1. What entries (rows) in the page directory have been filled in at this
 point? What addresses do they map and where do they point? In other
 words, fill out this table as much as possible:
 
@@ -456,15 +457,18 @@ words, fill out this table as much as possible:
         |0    | 0x00000000           | [see next question]                   |
         +-----+----------------------+---------------------------------------+
 
-    3. We have placed the kernel and user environment in the same address
+> 2. We have placed the kernel and user environment in the same address
        space. Why will user programs not be able to read or write the
        kernel's memory? What specific mechanisms protect the kernel memory?
-    4. What is the maximum amount of physical memory that this operating
+
+> 3. What is the maximum amount of physical memory that this operating
        system can support? Why?
-    5. How much space overhead is there for managing memory, if we actually
+
+> 4. How much space overhead is there for managing memory, if we actually
        had the maximum amount of physical memory? How is this overhead
        broken down?
-    6. Revisit the page table setup in ``kern/entry.S`` and
+
+> 5. Revisit the page table setup in ``kern/entry.S`` and
        ``kern/entrypgdir.c``. Immediately after we turn on paging, EIP is
        still a low number (a little over 1MB). At what point do we
        transition to running at an EIP above KERNBASE? What makes it
