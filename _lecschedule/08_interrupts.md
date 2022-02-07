@@ -1,6 +1,6 @@
 ---
 type: lecture
-date: 2022-02-03T8:00:00+4:30
+date: 2022-02-08T8:00:00+4:30
 title: Interrupt and Exception Handling
 tldr: "Interrupt and Exception Handling."
 thumbnail: /static_files/presentations/fuzzing.jpeg
