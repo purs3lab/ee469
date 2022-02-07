@@ -1,6 +1,6 @@
 ---
 type: exam
-date: 2022-03-10T08:00:00+8:30
+date: 2022-03-10T12:30:00Z
 description: 'Midterm Exam'
 hide_from_announcments: true
 ---
