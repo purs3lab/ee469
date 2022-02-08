@@ -2,7 +2,7 @@
 type: assignment
 date: 2022-02-10T8:00:00+4:30
 title: 'Lab #3 - User Environments'
-enable: no
+enable: yes
 due_event:
     type: due
     date: 2022-02-26T23:59:00+3:30
