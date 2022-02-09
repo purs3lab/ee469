@@ -133,20 +133,13 @@ modified in lab3. To see the differences, you can type:
 $ git diff lab2
 ```
 
-You may also want to take another look at the [lab tools guide](../00_assignment),
+You may also want to take another look at the [lab tools guide](../assignments/00_assignment),
 as it includes information on debugging
 user code that becomes relevant in this lab.
 
 ## Lab Requirements
 
-This lab is divided into two parts, A and B. Part A is due a week after
-this lab was assigned; you should commit your changes and push
-your lab before the Part A deadline, even though your code may not yet
-pass all of the grade script tests. (If it does, great!) You only need
-to have all the grade script tests passing by the Part B deadline at the
-end of the second week.
-
-As in lab 2, you will need to do all of the regular exercises described
+This lab is divided into two parts, A and B. As in lab 2, you will need to do all of the regular exercises described
 in the lab and provide a write-up that briefly answers
 to the questions posed in the lab in a file called ``answers-lab3.txt``
 in the top level of your ``lab`` directory.
