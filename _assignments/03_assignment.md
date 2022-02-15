@@ -298,7 +298,7 @@ the ``Env`` structure allocated much like how you allocated the
 
 > You should run your code and make sure ``check_kern_pgdir()`` succeeds.
 
-> ### Watch [Exercise 1](https://983291-6.kaf.kaltura.com/media/t/1_bklm77g0/241882652) (you need to login to Purdue Brightspace)
+> ### Watch [Exercise 1](https://cdnapisec.kaltura.com/html5/html5lib/v2.92/mwEmbedFrame.php/p/983291/uiconf_id/44472651/entry_id/1_bklm77g0?wid=_983291&iframeembed=true&playerId=kaltura_player&entry_id=1_bklm77g0)
 
 ## Creating and Running Environments
 
@@ -361,7 +361,7 @@ panic("env_alloc: %e", r);
 ```
 > will panic with the message "env\_alloc: out of memory".
 
-> ### Watch [Exercise 2](https://983291-6.kaf.kaltura.com/media/t/1_bklm77g0/241882652) (you need to login to Purdue Brightspace)
+> ### Watch [Exercise 2](https://cdnapisec.kaltura.com/html5/html5lib/v2.92/mwEmbedFrame.php/p/983291/uiconf_id/44472651/entry_id/1_bklm77g0?wid=_983291&iframeembed=true&playerId=kaltura_player&entry_id=1_bklm77g0)
 
 Below is a call graph of the code up to the point where the user code is
 invoked. Make sure you understand the purpose of each step.
