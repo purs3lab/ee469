@@ -298,6 +298,8 @@ the ``Env`` structure allocated much like how you allocated the
 
 > You should run your code and make sure ``check_kern_pgdir()`` succeeds.
 
+> ### Watch [Exercise 1](https://983291-6.kaf.kaltura.com/media/t/1_bklm77g0/241882652) (you need to login to Purdue Brightspace)
+
 ## Creating and Running Environments
 
 You will now write the code in ``kern/env.c`` necessary to run a user
@@ -358,6 +360,8 @@ r = -E_NO_MEM;
 panic("env_alloc: %e", r);
 ```
 > will panic with the message "env\_alloc: out of memory".
+
+> ### Watch [Exercise 2](https://983291-6.kaf.kaltura.com/media/t/1_bklm77g0/241882652) (you need to login to Purdue Brightspace)
 
 Below is a call graph of the code up to the point where the user code is
 invoked. Make sure you understand the purpose of each step.
@@ -705,6 +709,8 @@ this point.
    invoke the kernel's page fault handler (which is interrupt vector
    14)?
 
+> ### Watch [Exercise 4](https://www.youtube.com/watch?v=e7LMrcVVZYU)
+
 This concludes part A of the lab. Please commit and push your progress
 before move on to part B.
 
@@ -733,6 +739,8 @@ and fix them. Remember that you can boot JOS into a particular user
 program using ``make run-prog`` (e.g., ``make run-faultred``)
 or ``make run-prog-gdb``.
 
+> ### Watch [Exercise 5](https://www.youtube.com/watch?v=e7LMrcVVZYU)
+
 You will further refine the kernel's page fault handling below, as you
 implement system calls.
 
@@ -753,6 +761,8 @@ displaying its panic message.
 > Modify ``trap_dispatch()`` to make breakpoint exceptions
 invoke the kernel monitor. You should now be able to get make grade to
 succeed on the ``breakpoint`` test.
+
+> ### Watch [Exercise 6](https://www.youtube.com/watch?v=rsKG9pSGvtk) 
 
 ## <span style="color:green">Challenge 1 (Extra Credit: 1%)</span>
 > Modify the JOS kernel monitor so that you can 'continue'
@@ -819,6 +829,9 @@ assembly code to invoke a system call has been written for you, in
 sure you understand what is going on.
 
 ## <span style="color:blue">Exercise 7</span>
+
+> ### Watch [Exercise 7](https://www.youtube.com/watch?v=rsKG9pSGvtk)
+
 > Add a handler in the kernel for interrupt vector
 ``T_SYSCALL``. You will have to edit ``kern/trapentry.S`` and
 ``kern/trap.c``'s ``trap_init()``. You also need to change
@@ -920,6 +933,8 @@ supports one user environment, it should report that it has destroyed
 the only environment and then drop into the kernel monitor. You should
 be able to get make grade to succeed on the ``hello`` test.
 
+> ### Watch [Exercise 8](https://www.youtube.com/watch?v=ARxQsrve47g) 
+
 ## Page faults and memory protection
 
 Memory protection is a crucial feature of an operating system, ensuring
@@ -1006,6 +1021,8 @@ kernel monitor and see the backtrace traverse into ``lib/libmain.c``
 before the kernel panics with a page fault. What causes this page fault?
 You don't need to fix it, but you should understand why it happens.
 
+> ### Watch [Exercise 9](https://www.youtube.com/watch?v=ARxQsrve47g)
+
 Note that the same mechanism you just implemented also works for
 malicious user applications (such as ``user/evilhello``).
 
@@ -1020,6 +1037,8 @@ should see:
     [00001000] user_mem_check assertion failure for va f010000c
     [00001000] free env 00001000
 ```
+
+> ### Watch [Exercise 10](https://www.youtube.com/watch?v=ARxQsrve47g)
 
 **This completes the lab.** Make sure you pass all of the make grade
 tests and don't forget to write up your answers to the questions in
