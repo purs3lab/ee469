@@ -11,3 +11,6 @@ links:
 **Readings:**
 - [Text Book: Concurrency](http://pages.cs.wisc.edu/~remzi/OSTEP/threads-intro.pdf)
 - [Text Book: Multi-threading](http://pages.cs.wisc.edu/~remzi/OSTEP/threads-api.pdf)
+
+**Examples:**
+- [process_synchronization](https://github.com/purs3lab/ee469_examples/tree/master/process_synchronization)
