@@ -5,7 +5,7 @@ title: 'Lab #3 - User Environments'
 enable: yes
 due_event:
     type: due
-    date: 2022-02-26T23:59:00+3:30
+    date: 2022-02-28T23:59:00+3:30
     description: 'Lab #3 due'
 ---
 # Introduction
