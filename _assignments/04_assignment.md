@@ -137,6 +137,8 @@ this is used, look at the beginning of ``lapic_init()`` in
 ``kern/lapic.c``. You'll have to do the next exercise, too, before the
 tests for ``mmio_map_region()`` will run.
 
+> ### Watch [Exercise 1](https://983291-6.kaf.kaltura.com/media/t/1_mb0uk2tb/241882652)
+
 # Application Processor Bootstrap
 
 Before booting up APs, the BSP should first collect information about
@@ -175,6 +177,7 @@ and run AP bootstrap code at that physical address. Your code should
 pass the updated ``check_page_free_list()`` test (but might fail the
 updated ``check_kern_pgdir()`` test, which we will fix soon).
 
+> ### Watch [Exercise 2](https://983291-6.kaf.kaltura.com/media/t/1_mb0uk2tb/241882652)
 
 **Question**
 > 1. Compare ``kern/mpentry.S`` side by side with ``boot/boot.S``. Bearing
@@ -242,6 +245,7 @@ size of each stack is ``KSTKSIZE`` bytes plus ``KSTKGAP`` bytes of
 unmapped guard pages. Your code should pass the new check in
 ``check_kern_pgdir()``.
 
+> ### Watch [Exercise 3](https://983291-6.kaf.kaltura.com/media/t/1_mb0uk2tb/241882652)
 
 ## <span style="color:blue">Exercise 4</span>
 > The code in ``trap_init_percpu()`` (``kern/trap.c``)
@@ -249,6 +253,8 @@ initializes the TSS and TSS descriptor for the BSP. It worked in Lab 3,
 but is incorrect when running on other CPUs. Change the code so that it
 can work on all CPUs. (Note: your new code should not use the global
 ``ts`` variable any more.)
+
+> ### Watch [Exercise 4](https://983291-6.kaf.kaltura.com/media/t/1_mb0uk2tb/241882652)
 
 
 When you finish the above exercises, run JOS in QEMU with 4 CPUs using
@@ -306,6 +312,7 @@ should apply the big kernel lock at four locations:
 you will be able to after you implement the scheduler in the next
 exercise.
 
+> ### Watch [Exercise 5](https://www.youtube.com/watch?v=KC1e70L9jGs)
 
 **Question**
 2. It seems that using the big kernel lock guarantees that only one CPU
@@ -393,6 +400,7 @@ protection or kernel page fault once there are no more runnable
 environments due to unhandled timer interrupts (which we will fix
 below!).
 
+> ### Watch [Exercise 6](https://www.youtube.com/watch?v=KC1e70L9jGs)
 
 **Question**
 3. In your implementation of ``env_run()`` you should have called
@@ -512,6 +520,7 @@ parameter. Be sure you check for any invalid system call arguments,
 returning ``-E_INVAL`` in that case. Test your JOS kernel with
 ``user/dumbfork`` and make sure it works before proceeding.
 
+> ### Watch [Exercise 7](https://www.youtube.com/watch?v=KC1e70L9jGs)
 
 ## <span style="color:green">Challenge (No Extra Credit)</span>
 > Add the additional system calls necessary to *read* all of
@@ -627,6 +636,8 @@ information.
 sure to enable permission checking when looking up the environment ID of
 the target environment, since this is a "dangerous" system call.
 
+> ### Watch [Exercise 8](https://www.youtube.com/watch?v=KC1e70L9jGs)
+
 # Normal and Exception Stacks in User Environments
 
 During normal execution, a user environment in JOS will run on the
@@ -706,6 +717,8 @@ handler. Be sure to take appropriate precautions when writing into the
 exception stack. (What happens if the user environment runs out of space
 on the exception stack?)
 
+> ### Watch [Exercise 9](https://www.youtube.com/watch?v=9qaTKOtp93g)
+
 # User-mode Page Fault Entrypoint
 
 Next, you need to implement the assembly routine that will take care of
@@ -720,12 +733,15 @@ point in the user code that caused the page fault. You'll return
 directly there, without going back through the kernel. The hard part is
 simultaneously switching stacks and re-loading the EIP.
 
+> ### Watch [Exercise 10](https://www.youtube.com/watch?v=9qaTKOtp93g)
 
 Finally, you need to implement the C user library side of the user-level
 page fault handling mechanism.
 
 ## <span style="color:blue">Exercise 11</span>
 > Finish ``set_pgfault_handler()`` in ``lib/pgfault.c``.
+
+> ### Watch [Exercise 11](https://www.youtube.com/watch?v=9qaTKOtp93g)
 
 # Testing
 
@@ -875,6 +891,8 @@ order, and the environment IDs may be different.
     1006: I am '101'
 ```
 
+> ### Watch [Exercise 12](https://www.youtube.com/watch?v=9qaTKOtp93g)
+
 This ends part B. As usual, you can grade your submission with ``make grade``.
 
 # Part C: Preemptive Multitasking and Inter-Process communication (IPC)
@@ -962,6 +980,8 @@ them, so you should see it misattribute each interrupt to the currently
 running user environment and destroy it. Eventually it should run out of
 environments to destroy and drop into the monitor.
 
+> ### Watch [Exercise 13](https://www.youtube.com/watch?v=iDHSlahlIFY)
+
 # Handling Clock Interrupts
 
 In the ``user/spin`` program, after the child environment was first run,
@@ -985,6 +1005,7 @@ environment should fork off the child, ``sys_yield()`` to it a couple
 times but in each case regain control of the CPU after one time slice,
 and finally kill the child environment and terminate gracefully.
 
+> ### Watch [Exercise 14](https://www.youtube.com/watch?v=iDHSlahlIFY)
 
 This is a great time to do some *regression testing*. Make sure that you
 haven't broken any earlier part of that lab that used to work (e.g.
@@ -1098,6 +1119,7 @@ environment until JOS runs out of environments. You might find it
 interesting to read ``user/primes.c`` to see all the forking and IPC
 going on behind the scenes.
 
+> ### Watch [Exercise 15](https://www.youtube.com/watch?v=iDHSlahlIFY)
 
 ## <span style="color:green">Challenge (No Extra Credit)</span>
 > Why does ``ipc_send`` have to loop? Change the system call
