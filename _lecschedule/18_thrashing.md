@@ -1,6 +1,6 @@
 ---
 type: lecture
-date: 2022-03-22T8:00:00+4:30
+date: 2022-03-24T8:00:00+4:30
 title: Thrashing and Storage Devices
 tldr: "Thrashing and Storage Devices."
 thumbnail: /static_files/presentations/best.png
