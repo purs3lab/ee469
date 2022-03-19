@@ -11,3 +11,6 @@ links:
 **Readings:**
 - [Text Book: Files And Directories](https://pages.cs.wisc.edu/~remzi/OSTEP/file-intro.pdf)
 - [Text Book: File System Implementation](https://pages.cs.wisc.edu/~remzi/OSTEP/file-implementation.pdf)
+
+**Samples:**
+- [disk.tar.gz](/static_files/read/disk.img.gz)
