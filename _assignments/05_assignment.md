@@ -565,6 +565,7 @@ understand why it is harder.
 
  > Use ``make grade`` to test your code.
 
+> ### Watch [Exercise 7](https://www.youtube.com/watch?v=xdcDI4GhvAg)
 
 ## <span style="color:green">Challenge (No Extra Credit)</span>
 > Implement Unix-style ``exec``.
@@ -630,6 +631,7 @@ paragraph, we want to make sure to *share* updates to the page.
  ``fork`` did), copying any page mappings that have the ``PTE_SHARE`` bit
  set into the child process.
 
+> ### Watch [Exercise 8](https://www.youtube.com/watch?v=xdcDI4GhvAg)
 
 Use make run-testpteshare to check that your code is behaving properly.
 You should see lines that say "fork handles PTE_SHARE right" and
@@ -656,6 +658,7 @@ you need to attach these to the rest of the system.
  ``IRQ_OFFSET+IRQ_KBD`` and ``serial_intr`` to handle trap
  ``IRQ_OFFSET+IRQ_SERIAL``.
 
+> ### Watch [Exercise 9](https://www.youtube.com/watch?v=u_bvOFVybis)
 
 We implemented the console input/output file type for you, in
 ``lib/console.c``. ``kbd_intr`` and ``serial_intr`` fill a buffer with
@@ -704,6 +707,7 @@ printing to FD 1. See ``user/lsfd.c`` for examples.
  the above commands (also found in ``fs/testshell.sh``) into the shell
  and then checks that the output matches ``fs/testshell.key``.
 
+> ### Watch [Exercise 10](https://www.youtube.com/watch?v=u_bvOFVybis)
 
 ## <span style="color:green">Challenge (No Extra Credit)</span>
  > Add more features to the shell. Possibilities include (a few
