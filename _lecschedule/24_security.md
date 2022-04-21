@@ -12,3 +12,4 @@ links:
 - [Stack Smashing](http://phrack.org/issues/49/14.html)
 - [Software Security](https://nebelwelt.net/SS3P/softsec.pdf)
 - [The protection of information in computer systems](https://cs-uob.github.io/COMSM0049/papers/saltzer-1975.pdf)
+- [Boomerang](/ee469/static_files/presentations/Boomerang_CS595.pdf)
