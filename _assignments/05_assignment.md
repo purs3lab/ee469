@@ -5,7 +5,7 @@ title: 'Lab #5 - File system, Spawn and Shell'
 enable: yes
 due_event:
    type: due
-   date: 2022-04-23T23:59:00+3:30
+   date: 2022-04-25T23:59:00+3:30
    description: 'Lab #5 due'
 ---
 
