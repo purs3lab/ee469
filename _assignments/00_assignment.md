@@ -12,13 +12,13 @@ You'll use two sets of tools in this class: an x86 emulator: [Qemu](#configuring
 a [Compiler toolchain](#compiler-tool-chain), including assembler, linker, C compiler, and
 debugger, for compiling and testing your kernel.
 
-## Using `ecegrid`
-All the required tools are already present on `ecegrid`. You need to configure your `PATH` variable as follows:
+## Using `eceprog`
+All the required tools are already present on `eceprog`. You need to configure your `PATH` variable as follows:
 ```
-setenv PATH=~ee469/labs_2022/qemu/build/bin:$PATH
+setenv PATH=~amachiry/qemu/i386-softmmu:$PATH
 ```
 
-**If you are using bash shell**: append the line `export PATH=~ee469/labs_2022/qemu/build/bin:$PATH` at the end of your `~/.bashrc`.
+**If you are using bash shell**: append the line `export PATH=~amachiry/qemu/i386-softmmu:$PATH` at the end of your `~/.bashrc`.
 
 You should be good to go from here.
 
@@ -56,7 +56,7 @@ A "compiler toolchain" is the set of programs, including a C compiler, assembler
 executable binaries. You'll need a compiler toolchain that generates code for 32-bit Intel architectures ("x86" architectures) in the ELF binary format.
 
 ### Test Your Compiler Toolchain
-Modern Linux and BSD UNIX distributions already provide a toolchain suitable for 6.828. To test your distribution, try the following commands:
+Modern Linux and BSD UNIX distributions already provide a toolchain suitable for ECE 469. To test your distribution, try the following commands:
 
 ```
 % objdump -i
@@ -93,7 +93,7 @@ On Ubuntu Linux, try this to fix the problem:
 
 ### For MacOS
 
-**Note: We strongly suggest using a Ubuntu 20.04 machine. If you don't have one, you could use a virtual machine.**
+**Note: We strongly suggest using a Ubuntu 22.04 machine. If you don't have one, you could use a virtual machine.**
 
 Begin by installing developer tools:
 ```
@@ -106,7 +106,7 @@ xcode-select --install
 On Ubuntu:
 
 ```
-sudo apt-get install libfdt-dev libsdl1.2-dev libtool-bin libglib2.0-dev libz-dev libpixman-1-dev python git
+sudo apt-get install libfdt-dev libsdl1.2-dev libtool-bin libglib2.0-dev libz-dev libpixman-1-dev python2 git
 ```
 
 On MacOS:
@@ -131,7 +131,7 @@ mkdir build
 On Ubuntu:
 
 ```
-./configure --disable-kvm --disable-werror --prefix=~/qemu/build --target-list="i386-softmmu x86_64-softmmu"
+./configure --disable-kvm --disable-werror --prefix=~/qemu/build --target-list="i386-softmmu x86_64-softmmu" --python=python2
 ```
 
 On MacOSX:
@@ -142,12 +142,12 @@ On MacOSX:
 
 ### Changing your path
 
-Update your path and add `~/qemu/build/bin`.
+Update your path and add `~/qemu/i386-softmmu`.
 
 Open your `~/.bashrc` file and add the following line at the end of it.
 
 ```
-PATH=~/qemu/build/bin:$PATH
+PATH=~/qemu/i386-softmmu:$PATH
 ```
 
 ## GDB
