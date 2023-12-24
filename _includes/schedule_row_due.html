@@ -1,3 +1,4 @@
+{% if include.event.enable %}
 <div class="col col-1" style="font-weight: bold;" data-label="Event">Due</div>
 <div class="col col-1-2" style="font-weight: bold" data-label="Date">
     {{ event.date | date: site.dateformat }}
@@ -9,3 +10,4 @@
 </div>
 <div class="col col-4" data-label="Course Material">
 </div>
+{% endif %}
