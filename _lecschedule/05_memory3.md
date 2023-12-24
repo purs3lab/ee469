@@ -1,6 +1,6 @@
 ---
 type: lecture
-date: 2022-01-25T8:00:00+4:30
+date: 2024-01-23T8:00:00+4:30
 title: More Virtual Memory
 tldr: "More Virtual Memory Details."
 thumbnail: /static_files/presentations/staticanalysis.jpeg

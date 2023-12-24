@@ -1,6 +1,6 @@
 ---
 type: lecture
-date: 2022-01-18T8:00:00+4:30
+date: 2024-01-16T8:00:00+4:30
 title: Memory - Address Space, Segmentation and Paging
 tldr: "Memory - Address Space, Segmentation and Paging."
 thumbnail: /static_files/presentations/staticanalysis.jpeg
