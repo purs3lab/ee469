@@ -2,7 +2,6 @@
 type: assignment
 date: 2022-03-24T8:00:00+4:30
 title: 'Lab #5 - File system, Spawn and Shell'
-enable: yes
 due_event:
    type: due
    date: 2022-04-25T23:59:00+3:30

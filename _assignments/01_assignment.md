@@ -1,10 +1,10 @@
 ---
 type: assignment
-date: 2022-01-11T8:00:00+4:30
+date: 2024-01-11T8:00:00+4:30
 title: 'Lab #1 - Booting a PC'
 due_event: 
     type: due
-    date: 2022-01-25T23:59:00+3:30
+    date: 2024-01-25T23:59:00+3:30
     description: 'Lab #1 due'
 ---
 
