@@ -14,5 +14,5 @@ and edited by [OSU CS 444/544](https://os2.unexploitable.systems/index.html).
 
 **The labs are done in pairs. Please make sure that you enroll along with your partner in a group on Brightspace.**
 
-**You can do labs by logging into `ecegrid` (after following the steps in Lab 0) or using a ubuntu 20.04 machine (again following the corresponding steps in Lab 0).**
+**You can do labs by logging into `eceprog` (after following the steps in Lab 0) or using a ubuntu 22.04 machine (again following the corresponding steps in Lab 0).**
 

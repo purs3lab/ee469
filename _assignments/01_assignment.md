@@ -59,7 +59,7 @@ You can keep track of your changes by using the git diff command. Running git di
 since your last commit, and git diff `origin/lab1` will display the changes relative to the initial code supplied for this lab. 
 Here, `origin/lab1` is the name of the git branch with the initial code you downloaded from our server for this assignment.
 
-We have set up the appropriate compilers and simulators for you on `ecegrid.ecn.purdue.edu`. 
+We have set up the appropriate compilers and simulators for you on `eceprog.ecn.purdue.edu`. 
 
 
 If you are working on a non-ecngrid machine, you'll need to install qemu and possibly gcc following the directions 
@@ -391,11 +391,11 @@ processor executes the first instruction and waits for a debugging
 connection from GDB. In the second terminal, from the same directory,
 run ``gdb``. You should see something like this,
 
-If you are using `ecegrid` then one of the best ways is to use `tmux`.
+If you are using `eceprg` then one of the best ways is to use `tmux`.
 
 ### Debugging with <code>tmux</code>
 For debugging we require two `tmux` sessions.
-Now let's open two terminals and `ssh` into `ecegrid` in both of these terminals.
+Now let's open two terminals and `ssh` into `eceprog` in both of these terminals.
 We will use one to launch the `qemu` in debug mode ( debug-qemu session) and the other 
 one to attach the `gdb` to the `qemu` process ( debug-gdb session).
 
