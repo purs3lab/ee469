@@ -12,13 +12,18 @@ implement locks and other synchronization mechanisms and how to resolve deadlock
 evaluation: "
 We will use the following distribution for grading:
 <ul>
-  <li>Labs (Total: 80%).</li>
+  <li>Labs (Total: 70%).</li>
   <ul>
-  <li>Lab 1 (5%)</li>
-  <li>Lab 2 (10%)</li>
-  <li>Lab 3 (16%)</li>
-  <li>Lab 4 (21%)</li>
-  <li>Lab 5 (28%)</li>
+  <li>Lab 1 (3%)</li>
+  <li>Lab 2 (8%)</li>
+  <li>Lab 3 (14%)</li>
+  <li>Lab 4 (20%)</li>
+  <li>Lab 5 (25%)</li>
+  </ul>
+  <li>10 Quizzes (Total (Maximum): 10%) --- 5 top scoring quizzes will be used for grading</li>
+  <ul>
+  <li> Attempting a Quiz (1% each) --- Maximum 5% </li>
+  <li> Quiz score (1% each) --- Maximum 5% --- Only top 5 highest scores will be considered</li>
   </ul>
   <li>Midterm (10%).</li>
   <li>Final (10%).</li>
