@@ -1,6 +1,7 @@
 ---
 type: assignment
 date: 2024-01-11T8:00:00+4:30
+enable: yes
 title: 'Lab #1 - Booting a PC'
 due_event: 
     type: due
