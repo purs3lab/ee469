@@ -11,30 +11,23 @@ teaching_assistants:
     profile_pic: /_images/pp/ravi.jpg
     webpage: https://gokulan97.github.io/
     email: ravig@purdue.edu
-    office_hours: "Wednesday (9:30 am - 12:30 pm)"
-    lab_hours: "Thursday (9:30 am - 12:30 pm)"
-    location: "EE 209"
-
-  - name: Heejin Park
-    profile_pic: /_images/pp/hpark.jpg
-    webpage: https://bakhi.github.io/
-    email: bakhi@purdue.edu
-    office_hours: "Monday (9:30 am - 12:30 pm)"
-    lab_hours: "Tuesday (9:30 am - 12:30 pm)"
-    location: "EE 208"
-
-  - name: Sahil Jaganmohan
-    profile_pic: /_images/pp/sahil.jpg
-    webpage: https://www.sahiljaganmohan.com/
-    email: sjaganm@purdue.edu
-    office_hours: "Wednesday (1:30 pm - 4:30 pm)"
-    lab_hours: "Monday (1:30 pm - 4:30 pm)"
-    location: "EE 208"
 
   - name: Pranab Dash
     profile_pic: /_images/pp/ta02.jpg
     webpage: dashp@purdue.edu
     email: dashp@purdue.edu
-    office_hours: "Thursday (1:00 pm - 4:00 pm)"
-    lab_hours: "Friday (2:00 pm - 5:00 pm)"
-    location: "EE 209"
+
+  - name: Ayushi Sharma
+    profile_pic: /_images/pp/ayushi.jpg
+    webpage: sharm616@purdue.edu
+    email: sharm616@purdue.edu
+
+  - name: Aditya Padala
+    profile_pic: /_images/pp/aditya.jpg
+    webpage: padalaa@purdue.edu
+    email: padalaa@purdue.edu
+
+  - name: Ming Shen
+    profile_pic: /_images/pp/dumbledore.jpg
+    webpage: shen497@purdue.edu
+    email: shen497@purdue.edu
