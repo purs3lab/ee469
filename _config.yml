@@ -113,6 +113,13 @@ Automatic tools will be used to compare your programming solutions to those of e
 <p><b>The first case of cheating on an assignment will result in a zero for the particular assignment and reporting the
 student to the university administration for disciplinary action.
 The second case of cheating will result in an immediate F grade for the course.</b></p>
+
+<p><b>Use of ChatGPT and LLMs:</b></p>
+
+Using ChatGPT or GitHub Copilot <b>is not recommended for your coding assignments</b>.
+The labs are well-structured, and completing them helps you better understand OS concepts.
+<b>However, if you do use it, please mention the prompt used in the comments. For instance, <code>//LLMPROMPT: convert str to an integer.</code></b>
+You will not be penalized for using ChatGPT or other LLMs.
 "
 
 course_semester: "Spring 2024"

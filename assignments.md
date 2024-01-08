@@ -12,7 +12,7 @@ The labs used in this course are largely based on the materials originally
 developed for [MIT 6.828: Operating System Engineering](https://pdos.csail.mit.edu/6.828/2014/index.html)
 and edited by [OSU CS 444/544](https://os2.unexploitable.systems/index.html).
 
-**The labs are done in pairs. Please make sure that you enroll along with your partner in a group on Brightspace.**
+**The labs are done in pairs or individually. Please make sure that you enroll along with your partner in a group on Brightspace.**
 
 **You can do labs by logging into `eceprog` (after following the steps in Lab 0) or using a ubuntu 22.04 machine (again following the corresponding steps in Lab 0).**
 

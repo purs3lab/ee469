@@ -6,3 +6,5 @@ rules:
   - 3. Any coredump/hanging will result in a deduction of 60% of the total points for that problem right away
 
   - 4. For all the other cases, the grade script should give you a good estimate of the expected grade. We also maintain other tests, so final grade will depend on you passing the provided grading script and our internal tests.
+
+  - 5. All members of the group are responsible for the lab. Unfortunately, given the large class size, TAs or instructors will not handle requests related to problems within the group members. For instance, "My partner is supposed to complete the paging, but he did not do it on time. Can I get a partial grade?". Your grade will be based on what is submitted on the brightspace.
