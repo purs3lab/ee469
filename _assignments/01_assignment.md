@@ -428,7 +428,7 @@ gdb$
 We provided a ``.gdbinit`` file that set up GDB to debug the 16-bit code
 used during early boot and directed it to attach to the listening QEMU.
 
-(If it doesn't work, you may have to add an ``add-auto-load-safe-path=$JOS_PATH/.gdbinit``
+(If it doesn't work, you may have to add an ``add-auto-load-safe-path $JOS_PATH/.gdbinit``
 in your ``.gdbinit`` file in the home directory. This is to convince ``gdb`` to
 process the ``.gdbinit`` we have provided. Substitute ``$JOS_PATH`` with the JOS source code path
 from where you are running the ``gdb``. ``gdb`` will tell you if you have to add ``add-auto-load-safe-path``.)
