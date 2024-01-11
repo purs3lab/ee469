@@ -7,4 +7,6 @@ thumbnail: /static_files/presentations/staticanalysis.jpeg
 links:
     - url: /static_files/presentations/2_bootprocess.pdf
       name: slides
+    - url: /static_files/presentations/connor_uefi.pdf
+      name: UEFI
 ---
