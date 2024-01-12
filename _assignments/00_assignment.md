@@ -14,14 +14,15 @@ a [Compiler toolchain](#compiler-tool-chain), including assembler, linker, C com
 debugger, for compiling and testing your kernel.
 
 ## Using `eceprog`
-All the required tools are already present on `eceprog`. You need to configure your `PATH` variable as follows:
-```
-setenv PATH=~amachiry/qemu/i386-softmmu:$PATH
-```
+All the required compiler toolchains are already present on `eceprog`. But **you need to compile QEMU yourself by following
+instructions [below](#configuring-qemu) (skipping `sudo apt-get install` commands)**.
 
-**If you are using bash shell**: append the line `export PATH=~amachiry/qemu/i386-softmmu:$PATH` at the end of your `~/.bashrc`.
+~~All the required tools are already present on `eceprog`. You need to configure your `PATH` variable as follows:~~
+~~`setenv PATH=~amachiry/qemu/i386-softmmu:$PATH`~~
 
-You should be good to go from here.
+~~**If you are using bash shell**: append the line `export PATH=~amachiry/qemu/i386-softmmu:$PATH` at the end of your `~/.bashrc`.~~
+
+~~You should be good to go from here.~~
 
 You will be using `tmux` for debugging and it is better to brush up your `tmux` basics
 
@@ -126,19 +127,23 @@ git clone https://github.com/EE469/ee469-qemu.git ~/qemu
 
 ```
 cd ~/qemu
-mkdir build
 ```
 
 On Ubuntu:
 
 ```
-./configure --disable-kvm --disable-werror --prefix=~/qemu/build --target-list="i386-softmmu x86_64-softmmu" --python=python2
+./configure --disable-kvm --disable-werror --target-list="i386-softmmu x86_64-softmmu" --python=python2
 ```
 
 On MacOSX:
 
 ```
-./configure --disable-kvm --disable-werror --disable-sdl --prefix=~/qemu/build --target-list="i386-softmmu x86_64-softmmu"
+./configure --disable-kvm --disable-werror --disable-sdl --target-list="i386-softmmu x86_64-softmmu"
+```
+
+### Compiling:
+```
+make
 ```
 
 ### Changing your path
