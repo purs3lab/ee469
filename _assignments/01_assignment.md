@@ -390,7 +390,7 @@ Open two terminal windows. In one, enter ``make qemu-nox-gdb``.
 This starts up QEMU, but QEMU stops just before the
 processor executes the first instruction and waits for a debugging
 connection from GDB. In the second terminal, from the same directory,
-run ``gdb``. You should see something like this,
+run ``gdb``. You should see something like as shown under __debug-gdb session on terminal #2__ header (below).
 
 If you are using `eceprg` then one of the best ways is to use `tmux`.
 
