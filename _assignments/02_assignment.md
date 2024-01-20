@@ -12,8 +12,6 @@ due_event:
 In this lab, you will write the memory management code for your
 operating system. Memory management has two components.
 
-> ### Watch [Overview Video](https://www.youtube.com/embed/XwO5wiEReOM?start=9&end=495)
-
 The first component is a physical memory allocator for the kernel, so
 that the kernel can allocate memory and later free it. Your allocator
 will operate in units of 4096 bytes, called *pages*. Your task will be
@@ -29,9 +27,6 @@ performs the mapping when instructions use memory, consulting a set of
 page tables. You will modify JOS to set up the MMU's page tables
 according to a specification we provide.
 
-> ### Watch [Virtual Memory v/s Physical Memory](https://www.youtube.com/embed/pjg9Tw-6u80?start=196&end=450)
-
-> ### Watch [Tips for the lab](https://www.youtube.com/embed/XwO5wiEReOM?start=586&end=640)
 
 # Getting started
 
@@ -143,7 +138,6 @@ free and which are currently in use. JOS manages the PC's physical
 memory with *page granularity* so that it can use the MMU to map and
 protect each piece of allocated memory.
 
-> ### Watch [How JOS Manages Physical Memory](https://www.youtube.com/embed/XwO5wiEReOM?start=1623&end=1792)
 
 You'll now write the physical page allocator. It keeps track of which
 pages are free with a linked list of ``struct PageInfo`` objects (which,
@@ -168,19 +162,6 @@ page allocator. You should boot JOS and see whether
 ``check_page_alloc()`` reports success. Fix your code so that it passes.
 You may find it helpful to add your own ``assert()`` to verify that
 your assumptions are correct.
-
-> ### Related Lab Help Videos
-> [boot_alloc](https://www.youtube.com/embed/XwO5wiEReOM?start=924&end=1463)
-
-> [mem_init](https://www.youtube.com/embed/XwO5wiEReOM?start=1463&end=1622)
-
-> [pp_ref](https://www.youtube.com/embed/XwO5wiEReOM?start=1981&end=2026)
-
-> [page_init](https://www.youtube.com/embed/XwO5wiEReOM?start=2027&end=2062)
-
-> [page_alloc](https://www.youtube.com/embed/XwO5wiEReOM?start=2065&end=2139)
-
-> [page_free](https://www.youtube.com/embed/XwO5wiEReOM?start=2141&end=2198)
 
 This lab, and all the EE469 labs, will require you to do a bit of
 detective work to figure out exactly what you need to do. This
@@ -370,17 +351,6 @@ page_insert()
 > ``check_page()``, called from ``mem_init()``, tests your page table
 management routines. You should make sure it reports success before
 proceeding.
-
-> ### Related Lab Help Videos
-> [pgdir_walk](https://www.youtube.com/embed/pjg9Tw-6u80?start=996&end=1462)
-
-> [boot_map_region](https://www.youtube.com/embed/pjg9Tw-6u80?start=1464&end=1557)
-
-> [page_lookup](https://www.youtube.com/embed/pjg9Tw-6u80?start=1559&end=1720)
-
-> [page_remove](https://www.youtube.com/embed/pjg9Tw-6u80?start=1722&end=1878)
-
-> [page_insert](https://www.youtube.com/embed/pjg9Tw-6u80?start=1879&end=2111)
 
 # Part 3: Kernel Address Space
 
