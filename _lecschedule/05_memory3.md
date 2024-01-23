@@ -7,6 +7,8 @@ thumbnail: /static_files/presentations/staticanalysis.jpeg
 links:
     - url: /static_files/presentations/5_memory3.pdf
       name: slides
+    - url: https://drive.google.com/file/d/1mlz05GyQeCAKToDw3QPzrte4-A4l7ctP/view?usp=sharing
+      name: ClassRecording
 ---
 **Readings:**
 - [Text Book: Paging](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-paging.pdf)
