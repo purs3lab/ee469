@@ -5,7 +5,7 @@ title: Linux PlayGround and Storage Stack
 tldr: "Linux PlayGround and Storage Stack."
 thumbnail: /static_files/presentations/best.png
 links:
-    - url: /static_files/presentations/20_linuxfilesystem.pdf
+    - url: /static_files/presentations/08_linuxplayground.pdf
       name: slides
 ---
 **Linux Kernel Playground:**
