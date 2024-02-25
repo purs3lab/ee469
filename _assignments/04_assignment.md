@@ -1,10 +1,12 @@
 ---
 type: assignment
 date: 2024-03-01T8:00:00+4:30
+enable: yes
 title: 'Lab #4 - Preemptive Multitasking'
 due_event:
     type: due
-    date: 2024-03-28T23:59:00+3:30
+    enable: yes
+    date: 2024-03-29T23:59:00+3:30
     description: 'Lab #4 due'
 ---
 # Introduction
