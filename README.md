@@ -2,7 +2,7 @@
 - Individual page for assignments, lectures, course material, course schedule
 - Auto generated Course schedule Page
 - Auto generated course updates section (for each new lectures and assignments) + custom/manual announcements 
-- Super lightwei ght 
+- Super lightweight 
 - Highly customizable
 - Ready to be used in Github Pages
 - Responsive Mobile View
