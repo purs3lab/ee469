@@ -6,7 +6,7 @@ title: 'Lab #0 - Setup'
 due_event: 
     type: due
     enable: yes
-    date: 2024-01-11T23:59:00+3:30
+    date: 2025-01-15T23:59:00+3:30
     description: 'Lab #0 due'
 ---
 You'll use two sets of tools in this class: an x86 emulator: [Qemu](#configuring-qemu) for running your kernel; and 
