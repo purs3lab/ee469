@@ -5,7 +5,6 @@ layout: home
 
 Join our [Piazza](https://piazza.com/purdue/spring2025/ece469) for course related collaborations!
 
-### Office hours and Lab hours Schedule
 
 ![schedule2025](/static_files/fig/schedule2025.png)
 
