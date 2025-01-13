@@ -394,7 +394,30 @@ run ``gdb``. You should see something like as shown under __debug-gdb session on
 
 If you are using `eceprg` then one of the best ways is to use `tmux`.
 
-### Debugging with <code>tmux</code>
+### Debugging JOS
+
+Debugging jos requires two active terminals on the same machine. 
+One terminal will run the `qemu` in debug mode and the other terminal will run the `gdb` to attach to the `qemu` process.
+
+**NOTE: Make sure you are on the same machine as instructed in assignment 0.**
+
+ 1. debug-qemu session on terminal #1
+```
+$ cd $JOS_PATH # set JOS_PATH to JOS source code path
+$ make qemu-nox-gdb
+```
+ 2. debug-gdb session on terminal #2
+ 
+```
+$ cd $JOS_PATH # set JOS_PATH to JOS source code path
+$ gdb
++ target remote localhost:26000
+```
+
+Now you can skip to [Debugging Contd.](#debugging-contd) to continue debugging.
+
+
+### [Optional] Debugging with <code>tmux</code>
 For debugging we require two `tmux` sessions.
 Now let's open two terminals and `ssh` into `eceprog` in both of these terminals.
 We will use one to launch the `qemu` in debug mode ( debug-qemu session) and the other 
@@ -417,7 +440,10 @@ warning: No executable has been specified and target does not support
 determining executable automatically.  Try using the "file" command.
 warning: A handler for the OS ABI "GNU/Linux" is not built into this configuration
 of GDB.  Attempting to continue with the default i8086 settings.
+```
+### Debugging contd.
 
+```
 The target architecture is assumed to be i8086
 [f000:fff0]    0xffff0: ljmp   $0xf000,$0xe05b
 0x0000fff0 in ?? ()
