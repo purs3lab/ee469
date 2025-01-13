@@ -14,19 +14,32 @@ a [Compiler toolchain](#compiler-tool-chain), including assembler, linker, C com
 debugger, for compiling and testing your kernel.
 
 ## Using `eceprog`
+
+When you access `eceprog` it routes you to one of the available eceprog servers. You can check the server you are connected to by looking at the prompt or running the following command:
+
+```
+username@eceprog4:~$ hostname
+eceprog4.ecn.purdue.edu // Focus on the number here `eceprogX` This is the server you are connected to 
+                        // Make sure you are on this server while running multiple terminals
+username@eceprog4:~$
+```
+
+It is highly suggested to directly ssh into this server throughout the session by running the following command:
+
+```
+ssh eceprog1.ecn.purdue.edu // or eceprog2.ecn.purdue.edu or eceprog3.ecn.purdue.edu
+```
+instead of just `eceprog.ecn.purdue.edu` as this will help you to avoid any issues related to you being auto assigned a different server everytime you ssh into eceprog. This will prevent you from being able to connect the debugger to the OS since you are now on two different machines.
+
 All the required compiler toolchains are already present on `eceprog`. But **you need to compile QEMU yourself by following
 instructions [below](#configuring-qemu) (skipping `sudo apt-get install` commands)**.
 
-~~All the required tools are already present on `eceprog`. You need to configure your `PATH` variable as follows:~~
-~~`setenv PATH=~amachiry/qemu/i386-softmmu:$PATH`~~
+Provided that you followed the above instructions you can open a new tab in your terminal and ssh into `eceprogX` server whenever you need a new window to run commands in. 
 
-~~**If you are using bash shell**: append the line `export PATH=~amachiry/qemu/i386-softmmu:$PATH` at the end of your `~/.bashrc`.~~
 
-~~You should be good to go from here.~~
+You can also use `tmux` for debugging which helps you split panes and manage multiple terminals in a single window, but you can always use multiple tabs in your terminal to achieve the same. You can skip the next section if you are not interested in using `tmux`.
 
-You will be using `tmux` for debugging and it is better to brush up your `tmux` basics
-
-### Using tmux
+### [OPTIONAL] Using tmux
 `tmux` allows multiple terminals to be opened on the single window.
 The benefit of using tmux is that it creates a persistent terminal, which means even if the connection 
 is lost or the terminal closed, the session can be recovered.
@@ -51,7 +64,7 @@ $ tmux a -t <session name>
 You may use this tmux [cheatsheet](https://tmuxcheatsheet.com/) and [man page](https://man7.org/linux/man-pages/man1/tmux.1.html) 
 to get a better understanding.
 
-> Follow the below instructions if you want to setup compiler toolchain on your own machine.
+> **Follow the below instructions only if you want to setup compiler toolchain on your own machine.**
 
 ## Compiler Tool chain
 A "compiler toolchain" is the set of programs, including a C compiler, assemblers, and linkers, that turn code into 
