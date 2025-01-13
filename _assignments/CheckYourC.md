@@ -3,6 +3,11 @@ type: assignment
 date: 2025-01-12T8:00:00+4:30
 enable: yes
 title: 'Check You C Background'
+due_event:
+    type: due
+    enable: yes
+    date: 2025-01-14T23:59:00+3:30
+    description: 'Background Self Check'
 ---
 
 This class require you to do **a lot** of coding using Advance C concepts.
