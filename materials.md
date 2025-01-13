@@ -12,7 +12,7 @@ C Programming
 -------------
 
 -   [The C programming  language](http://www.amazon.com/The-Programming-Language-Brian-Kernighan/dp/0131103628)
--   [Modern C](http://icube-icps.unistra.fr/img_auth.php/d/db/ModernC.pdf)
+-   [Modern C](https://inria.hal.science/hal-02383654v1/file/ModernC.pdf)
 -   [Learn C The Hard Way](http://c.learncodethehardway.org/book/)
 
 UNIX

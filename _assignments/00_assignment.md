@@ -9,6 +9,7 @@ due_event:
     date: 2025-01-15T23:59:00+3:30
     description: 'Lab #0 due'
 ---
+
 You'll use two sets of tools in this class: an x86 emulator: [Qemu](#configuring-qemu) for running your kernel; and 
 a [Compiler toolchain](#compiler-tool-chain), including assembler, linker, C compiler, and
 debugger, for compiling and testing your kernel.
