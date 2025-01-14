@@ -394,6 +394,8 @@ run ``gdb``. You should see something like as shown under __debug-gdb session on
 
 If you are using `eceprg` then one of the best ways is to use `tmux`.
 
+**NOTE: You can skip this section if you want to setup VSCode to debug JOS (preferred) as specified in [VSCode Debugging](/_assignments/vscodedebugging.md)**
+
 ### Debugging JOS
 
 Debugging jos requires two active terminals on the same machine. 

@@ -10,6 +10,8 @@ due_event:
   description: 'Debugging Setup due'
 ---
 
+## NOTE: Please setup JOS as specified in Assignment 1 before you follow the following instructions. Instructions in Assignment 1 will instruct when to come back to this document.
+
 ### Debugging JOS with VSCode
 - Open the project in VSCode by navigating to the project directory after clicking on `File -> Open Folder`.
 
