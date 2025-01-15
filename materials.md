@@ -14,6 +14,7 @@ C Programming
 -   [The C programming  language](http://www.amazon.com/The-Programming-Language-Brian-Kernighan/dp/0131103628)
 -   [Modern C](https://inria.hal.science/hal-02383654v1/file/ModernC.pdf)
 -   [Learn C The Hard Way](http://c.learncodethehardway.org/book/)
+-   [Security issues in C](https://int0x33.medium.com/day-49-common-c-code-vulnerabilities-and-mitigations-7eded437ca4a)
 
 UNIX
 ----
