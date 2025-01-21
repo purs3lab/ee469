@@ -13,7 +13,12 @@ due_event:
 ## NOTE: Please setup JOS as specified in Assignment 1 before you follow the following instructions. Instructions in Assignment 1 will instruct when to come back to this document.
 
 ### Debugging JOS with VSCode
-- Open the project in VSCode by navigating to the project directory after clicking on `File -> Open Folder`.
+
+- You need to install a few extensions in VSCode to be able to debug JOS. Just go to the extension search bar and type in `@recommended` and install all the extensions.
+
+![alt text](/ee469/_images/debugging/extensions.png)
+
+- Open the project in VSCode by navigating to to the path where you cloned the `jos` directory after clicking on `File -> Open Folder`.
 
 ![opening a folder](/ee469/_images/debugging/howtoopenafolder.png)
 
@@ -35,6 +40,8 @@ qemu-system-i386 -nographic -drive file=obj/kern/kernel.img,index=0,media=disk,f
 - Open the `Run and Debug` tab and click on the green play icon to attach to the running QEMU instance.
 
 **Make sure you have "Attach to JOS kernel selected".**
+
+- VSCode will now ask for the port. You have to pick the default port from the dropdown ideally you should only have a single option in the dropdown.
 
 ![run debug](/ee469/_images/debugging/rundebug.png).
 
