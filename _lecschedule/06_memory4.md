@@ -7,6 +7,10 @@ thumbnail: /static_files/presentations/staticanalysis.jpeg
 links:
     - url: /static_files/presentations/6_memory4.pdf
       name: slides
+    - url: https://github.com/purs3lab/linux-playground/tree/main/memory-tracer
+      name: memorytracer
+    - url: https://github.com/purs3lab/linux-playground
+      name: linuxkernelplayground
 ---
 **Readings:**
 - [Text Book: Paging](https://pages.cs.wisc.edu/~remzi/OSTEP/vm-paging.pdf)
