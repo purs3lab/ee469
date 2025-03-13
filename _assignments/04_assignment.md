@@ -138,7 +138,7 @@ this is used, look at the beginning of ``lapic_init()`` in
 ``kern/lapic.c``. You'll have to do the next exercise, too, before the
 tests for ``mmio_map_region()`` will run.
 
-> ### Watch [Exercise 1](https://983291-6.kaf.kaltura.com/media/t/1_mb0uk2tb/241882652)
+> ### Watch [Exercise 1](https://cfvod.kaltura.com/p/983291/sp/98329100/serveFlavor/entryId/1_mb0uk2tb/v/1/ev/5/flavorId/1_3jya6m73/name/a.mp4)
 
 # Application Processor Bootstrap
 
@@ -178,7 +178,7 @@ and run AP bootstrap code at that physical address. Your code should
 pass the updated ``check_page_free_list()`` test (but might fail the
 updated ``check_kern_pgdir()`` test, which we will fix soon).
 
-> ### Watch [Exercise 2](https://983291-6.kaf.kaltura.com/media/t/1_mb0uk2tb/241882652)
+> ### Watch [Exercise 2](https://cfvod.kaltura.com/p/983291/sp/98329100/serveFlavor/entryId/1_mb0uk2tb/v/1/ev/5/flavorId/1_3jya6m73/name/a.mp4)
 
 **Question**
 > 1. Compare ``kern/mpentry.S`` side by side with ``boot/boot.S``. Bearing
@@ -246,7 +246,7 @@ size of each stack is ``KSTKSIZE`` bytes plus ``KSTKGAP`` bytes of
 unmapped guard pages. Your code should pass the new check in
 ``check_kern_pgdir()``.
 
-> ### Watch [Exercise 3](https://983291-6.kaf.kaltura.com/media/t/1_mb0uk2tb/241882652)
+> ### Watch [Exercise 3](https://cfvod.kaltura.com/p/983291/sp/98329100/serveFlavor/entryId/1_mb0uk2tb/v/1/ev/5/flavorId/1_3jya6m73/name/a.mp4)
 
 ## <span style="color:blue">Exercise 4</span>
 > The code in ``trap_init_percpu()`` (``kern/trap.c``)
@@ -255,7 +255,7 @@ but is incorrect when running on other CPUs. Change the code so that it
 can work on all CPUs. (Note: your new code should not use the global
 ``ts`` variable any more.)
 
-> ### Watch [Exercise 4](https://983291-6.kaf.kaltura.com/media/t/1_mb0uk2tb/241882652)
+> ### Watch [Exercise 4](https://cfvod.kaltura.com/p/983291/sp/98329100/serveFlavor/entryId/1_mb0uk2tb/v/1/ev/5/flavorId/1_3jya6m73/name/a.mp4)
 
 
 When you finish the above exercises, run JOS in QEMU with 4 CPUs using
