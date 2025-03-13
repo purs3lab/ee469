@@ -280,7 +280,7 @@ I/O space at all.
  > Make sure you can start the file environment without causing a General
  Protection fault. You should pass the "fs i/o" test in make grade.
 
-> ### Watch [Exercise 1 (BrightSpace)](https://983291-6.kaf.kaltura.com/media/t/1_643k3pyf/241882652)
+> ### Watch [Exercise 1 (BrightSpace)](https://cfvod.kaltura.com/p/983291/sp/98329100/serveFlavor/entryId/1_643k3pyf/v/1/ev/5/flavorId/1_ugfiiuuz/name/a.mp4)
 
 
 **Question 1.**
@@ -373,7 +373,7 @@ can pretend that the entire disk is in memory.
  > Use make grade to test your code. Your code should pass "check\_bc",
  "check\_super", and "check\_bitmap".
 
-> ### Watch [Exercise 2 (BrightSpace)](https://983291-6.kaf.kaltura.com/media/t/1_643k3pyf/241882652)
+> ### Watch [Exercise 2 (BrightSpace)](https://cfvod.kaltura.com/p/983291/sp/98329100/serveFlavor/entryId/1_643k3pyf/v/1/ev/5/flavorId/1_ugfiiuuz/name/a.mp4)
 
 The ``fs_init`` function in ``fs/fs.c`` is a prime example of how to use
 the block cache. After initializing the block cache, it simply stores
@@ -409,7 +409,7 @@ marked free in the bitmap.
  > Use make grade to test your code. Your code should now pass
  "alloc\_block".
 
-> ### Watch [Exercise 3 (BrightSpace)](https://983291-6.kaf.kaltura.com/media/t/1_643k3pyf/241882652)
+> ### Watch [Exercise 3 (BrightSpace)](https://cfvod.kaltura.com/p/983291/sp/98329100/serveFlavor/entryId/1_643k3pyf/v/1/ev/5/flavorId/1_ugfiiuuz/name/a.mp4)
 
 # File Operations
 
