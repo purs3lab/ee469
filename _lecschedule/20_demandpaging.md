@@ -1,6 +1,6 @@
 ---
 type: lecture
-date: 2025-03-03T8:00:00+4:30
+date: 2025-04-03T8:00:00+4:30
 title: Demand Paging and Page Replacement Algorithms
 tldr: "Demand Paging and Page Replacement Algorithms."
 thumbnail: /static_files/presentations/best.png
