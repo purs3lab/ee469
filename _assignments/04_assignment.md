@@ -6,7 +6,7 @@ title: 'Lab #4 - Preemptive Multitasking'
 due_event:
     type: due
     enable: yes
-    date: 2025-04-01T23:59:00+3:30
+    date: 2025-04-03T23:59:00+3:30
     description: 'Lab #4 due'
 ---
 # Introduction
