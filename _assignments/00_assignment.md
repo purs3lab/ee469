@@ -1,12 +1,12 @@
 ---
 type: assignment
-date: 2025-01-13T8:00:00+4:30
+date: 2026-01-13T8:00:00+4:30
 enable: yes
 title: 'Lab #0 - Setup'
 due_event: 
     type: due
     enable: yes
-    date: 2025-01-15T23:59:00+3:30
+    date: 2026-01-13T23:59:00+3:30
     description: 'Lab #0 due'
 ---
 
