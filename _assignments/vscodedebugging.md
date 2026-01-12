@@ -1,12 +1,12 @@
 ---
 type: assignment
-date: 2025-01-13T8:00:00+4:30
+date: 2026-01-13T8:00:00+4:30
 enable: yes
 title: 'VSCODE Debugging Setup'
 due_event:
   type: due
   enable: yes
-  date: 2025-01-14T23:59:00+3:30
+  date: 2026-01-20T23:59:00+3:30
   description: 'Debugging Setup due'
 ---
 
