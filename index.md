@@ -1,7 +1,7 @@
 ---
 layout: home
 ---
-<b>When:</b> TTh 10:30 AM - 11:45 AM, <b>Where:</b> BHEE | Room 114
+<b>When:</b> TTh 3:00 PM - 4:15 PM, <b>Where:</b> BHEE | Room 129
 
 Join our [Piazza](https://piazza.com/purdue/spring2026/ece469) for course related collaborations!
 
