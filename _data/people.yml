@@ -3,8 +3,6 @@ instructors:
     profile_pic: /_images/pp/machiry.png
     webpage: https://machiry.github.io/
     email: amachiry@purdue.edu
-    office_hours: "Wednesday (1:00 pm - 3:00 pm)"
-    location: "EE 333"
 
 teaching_assistants:
   - name: Aditya Padala
@@ -12,23 +10,13 @@ teaching_assistants:
     webpage: https://in.linkedin.com/in/aditya-vardhan-padala-93686919b
     email: padalaa@purdue.edu
 
-  - name: Ming Shen
-    profile_pic: /_images/pp/dumbledore.jpg
-    webpage: https://szsam.github.io/
-    email: shen497@purdue.edu
+  - name: Abhilash Ashok Achary
+    profile_pic: /_images/pp/abhilash.jpg
+    webpage: https://www.linkedin.com/in/abhilash-ashok-achary/
+    email: achary0@purdue.edu
 
-  - name: ArunKumar Bhattar
-    profile_pic: /_images/pp/akumar.jpg
-    webpage: https://www.linkedin.com/in/arun-b-093693148?trk=public_profile_samename-profile
-    email: bhattar1@purdue.edu
-
-  - name: Sourag C
-    profile_pic: /_images/pp/sourag.jpg
-    webpage: https://www.linkedin.com/in/souragc/?trk=public_profile_browsemap&originalSubdomain=in
-    email: scherupa@purdue.edu
-
-  - name: Datta Manikanta Sri Hari Danduri
-    profile_pic: /_images/pp/srihari.jpg
-    webpage: https://www.linkedin.com/in/dandurisrihari/
-    email: ddanduri@purdue.edu
+  - name: Vineet Vinod
+    profile_pic: /_images/pp/vineet.jpg
+    webpage: https://www.linkedin.com/in/vineetvinod/
+    email: vinod3@purdue.edu
 
