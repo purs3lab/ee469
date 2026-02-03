@@ -181,7 +181,7 @@ protected-mode memory management architecture: namely *segmentation* and
 
 ## <span style="color:blue">Exercise 2</span>
 > Look at chapters 5 and 6 of the
-[Intel 80386 Reference Manual](http://www.logix.cz/michal/doc/i386/),
+[Intel 80386 Reference Manual](static_files/read/i386RefManual.pdf),
 if you haven't done so already.
 Read the sections about page translation and page-based protection
 closely (5.2 and 6.4). We recommend that you also skim the sections

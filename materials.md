@@ -34,7 +34,7 @@ x86 Assembly Language
 ---------------------
 
 -   [PC Assembly Language](http://www.drpaulcarter.com/pcasm/), Paul A. Carter, November 2003.
--   [[Intel 80386 Programmer's Reference Manual](http://www.logix.cz/michal/doc/i386/)](https://pdos.csail.mit.edu/6.828/2018/readings/i386.pdf), 1987 (HTML).
+-   [Intel 80386 Programmer's Reference Manual](static_files/read/i386RefManual.pdf), 1987 (HTML).
     Much shorter than the full current Intel Architecture manuals below, but
     describes all processor features used in EE469.
 -   [IA-32 Intel Architecture Software Developer's Manuals](http://www.intel.com/content/www/us/en/processors/architectures-software-developer-manuals.html),
